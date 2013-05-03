@@ -1,0 +1,2769 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head><title>Size does matter</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<!-- html,css-in,info --> 
+<meta name="src" content="main.tex"> 
+<meta name="date" content="2008-06-12 18:32:00"> 
+ 
+<style type="text/css"> 
+<!--  
+ 
+/* start css.sty */  
+.cmsy-10{font-size:90%;}  
+.ecrm-1095{font-size:90%;}  
+.ecrm-1728{font-size:154%;}  
+.ecrm-1200{font-size:109%;}  
+.ecrm-1000{font-size:90%;}  
+.ectt-1095{font-size:90%; font-family: monospace;}  
+.ectt-1095{ font-family: monospace;}  
+.ectt-1095{ font-family: monospace;}  
+.ectt-1095{ font-family: monospace;}  
+.ectt-1095{ font-family: monospace;}  
+.ectt-1095{ font-family: monospace;}  
+.ectt-1095{ font-family: monospace;}  
+.ecti-1095{font-size:90%; font-style: italic;}  
+.ecti-1095{ font-style: italic;}  
+.ecti-1095{ font-style: italic;}  
+.ecti-1095{ font-style: italic;}  
+.ecti-1095{ font-style: italic;}  
+.ecti-1095{ font-style: italic;}  
+.ecti-1095{ font-style: italic;}  
+.ecbx-1095{font-size:90%; font-weight: bold;}  
+.ecbx-1095{ font-weight: bold;}  
+.ecbx-1095{ font-weight: bold;}  
+.ecbx-1095{ font-weight: bold;}  
+.ecbx-1095{ font-weight: bold;}  
+.ecbx-1095{ font-weight: bold;}  
+.ecbx-1095{ font-weight: bold;}  
+p.noindent { text-indent: 0em }  
+td p.noindent { text-indent: 0em; margin-top:0em; }  
+p.nopar { text-indent: 0em; }  
+p.indent{ text-indent: 1.5em }  
+@media print {div.crosslinks {visibility:hidden;}}  
+a img { border-top: 0; border-left: 0; border-right: 0; }  
+center { margin-top:1em; margin-bottom:1em; }  
+td center { margin-top:0em; margin-bottom:0em; }  
+.Canvas { position:relative; }  
+img.math{vertical-align:middle;}  
+li p.indent { text-indent: 0em }  
+.enumerate1 {list-style-type:decimal;}  
+.enumerate2 {list-style-type:lower-alpha;}  
+.enumerate3 {list-style-type:lower-roman;}  
+.enumerate4 {list-style-type:upper-alpha;}  
+div.newtheorem { margin-bottom: 2em; margin-top: 2em;}  
+.obeylines-h,.obeylines-v {white-space: nowrap; }  
+div.obeylines-v p { margin-top:0; margin-bottom:0; }  
+.overline{ text-decoration:overline; }  
+.overline img{ border-top: 1px solid black; }  
+td.displaylines {text-align:center; white-space:nowrap;}  
+.centerline {text-align:center;}  
+.rightline {text-align:right;}  
+div.verbatim {font-family: monospace; white-space: nowrap; }  
+table.verbatim {width:100%;}  
+.fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }  
+div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }  
+table.minipage{width:100%;}  
+div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}  
+div.center div {text-align: left;}  
+div.flushright, div.flushright div.flushright {text-align: right;}  
+div.flushright div {text-align: left;}  
+div.flushleft {text-align: left;}  
+.underline{ text-decoration:underline; }  
+.underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }  
+.framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }  
+.framebox-c {text-align:center;}  
+.framebox-l {text-align:left;}  
+.framebox-r {text-align:right;}  
+span.thank-mark{ vertical-align: super }  
+span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }  
+div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }  
+table.tabular td p{margin-top:0em;}  
+table.tabular {margin-left: auto; margin-right: auto;}  
+div.td00{ margin-left:0pt; margin-right:0pt; }  
+div.td01{ margin-left:0pt; margin-right:5pt; }  
+div.td10{ margin-left:5pt; margin-right:0pt; }  
+div.td11{ margin-left:5pt; margin-right:5pt; }  
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }  
+td.td00{ padding-left:0pt; padding-right:0pt; }  
+td.td01{ padding-left:0pt; padding-right:5pt; }  
+td.td10{ padding-left:5pt; padding-right:0pt; }  
+td.td11{ padding-left:5pt; padding-right:5pt; }  
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }  
+.hline hr, .cline hr{ height : 1px; margin:0px; }  
+.tabbing-right {text-align:right;}  
+span.TEX {letter-spacing: -0.125em; }  
+span.TEX span.E{ position:relative;top:0.5ex;left:-0.0417em;}  
+a span.TEX span.E {text-decoration: none; }  
+span.LATEX span.A{ position:relative; top:-0.5ex; left:-0.4em; font-size:85%;}  
+span.LATEX span.TEX{ position:relative; left: -0.4em; }  
+div.float img, div.float .caption {text-align:center;}  
+div.figure img, div.figure .caption {text-align:center;}  
+.marginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}  
+.marginpar p{margin-top:0.4em; margin-bottom:0.4em;}  
+table.equation {width:100%;}  
+.equation td{text-align:center; }  
+td.equation { margin-top:1em; margin-bottom:1em; }  
+td.equation-label { width:5%; text-align:center; }  
+td.eqnarray4 { width:5%; white-space: normal; }  
+td.eqnarray2 { width:5%; }  
+table.eqnarray-star, table.eqnarray {width:100%;}  
+div.eqnarray{text-align:center;}  
+div.array {text-align:center;}  
+div.pmatrix {text-align:center;}  
+table.pmatrix {width:100%;}  
+span.pmatrix img{vertical-align:middle;}  
+div.pmatrix {text-align:center;}  
+table.pmatrix {width:100%;}  
+img.cdots{vertical-align:middle;}  
+.partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}  
+.caption td.id{font-weight: bold; white-space: nowrap; }  
+table.caption {text-align:center;}  
+h1.partHead{text-align: center}  
+p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }  
+p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }  
+.paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}  
+.subparagraphHead, .likesubparagraphHead { font-weight: bold;}  
+.quote {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; margin-right:1em; text-align:justify;}  
+.verse{white-space:nowrap; margin-left:2em}  
+div.maketitle {text-align:center;}  
+h2.titleHead{text-align:center;}  
+div.maketitle{ margin-bottom: 2em; }  
+div.author, div.date {text-align:center;}  
+div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }  
+div.author{white-space: nowrap;}  
+.quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }  
+.abstract p {margin-left:5%; margin-right:5%;}  
+table.abstract {width:100%;}  
+/* end css.sty */  
+ 
+ 
+--> 
+</style> 
+</head><body 
+>
+  <div class="maketitle">
+                                           
+                                                                                      
+
+                                                                                      
+
+<h2 class="titleHead">Size does matter</h2>
+<div class="author" ><span 
+class="ecrm-1200">by BlackHole</span></div>
+<br />
+<div class="date" ></div>
+  </div><a 
+ id="txt_top"></a>
+<div class="center" 
+>
+<!--l. 40--><p class="noindent" >
+<!--l. 41--><p class="noindent" ><span 
+class="ecrm-1000">Story </span><span 
+class="cmsy-10">&copy;</span><span 
+class="ecrm-1000">2008 by BlackHole</span><br />
+<span 
+class="ecrm-1000">Daria and associated characters are </span><span 
+class="cmsy-10">&copy;</span><span 
+class="ecrm-1000">2008 MTV</span>
+<span 
+class="ecrm-1000">Networks</span><br />
+<span 
+class="ecrm-1000">(who still deprive the Daria community of a</span>
+<span 
+class="ecrm-1000">decent DVD box set containing all Daria episodes</span><br />
+<span 
+class="ecrm-1000">&#8212; preferably in uncut condition with the original</span>
+<span 
+class="ecrm-1000">soundtrack)</span><br />
+<span 
+class="ecrm-1000">Used without explicit permission and with explicit</span>
+<span 
+class="ecrm-1000">appreciation</span><br />
+<span 
+class="ecrm-1000">Thanks for beta-reading etc. to:</span><br />
+<span 
+class="ecrm-1000">JPAGC, RLobinske, Kristen Bealer, and vladimir1</span></div>
+ <h3 class="sectionHead"><a 
+ id="x1-2000"></a>Part 2</h3>
+ <!--l. 13--><p class="noindent" ><a 
+ id="txt_rel9"></a>
+ <!--l. 15--><p class="noindent" >Daria prepared for school. Packing her P.E. stuff
+ she wondered how that class would work out.
+ Downstairs Helen and Jake rushed through
+ the final stages of their morning preparations,
+ guzzling down coffee (&#8216;Gah! Dammit, hot!&#8217;) and
+ collecting files. Daria poured herself a nice bowl of
+ cereal with milk and a glass of OJ to get herself
+ started for her day.
+ <!--l. 21--><p class="noindent" >Helen announced that she would have her first
+ day in court today, just as a visitor to get to know
+ the judges and so on, and therefore did not know
+ when she would be back in. Jake, however, said
+ that he just had some interviews for the part time
+ secretary during the morning at the office,
+ and would likely be back home in the early
+ afternoon after he ran some errands for his
+                                                                                      
+
+                                                                                      
+office.
+<!--l. 27--><p class="noindent" >Quinn came down just in time to say goodbye to
+Jake and Helen, who mounted their vehicles and
+left. Daria addressed her sister immediately
+afterwards.
+<!--l. 31--><p class="noindent" >&#8220;I&#8217;m going to leave a little early. I&#8217;m not ready to
+face the masses yet.&#8221;
+<!--l. 33--><p class="noindent" >&#8220;You can&#8217;t hide forever, Daria.&#8221;
+<br class="newline" />Quinn said between the bites she took from an
+apple.
+<!--l. 36--><p class="noindent" >&#8220;I know. I just hope...you know. I&#8217;m off. See you
+later.&#8221;
+<!--l. 38--><p class="noindent" >That said, Daria left and walked through the
+pleasant October sun towards Lawndale High.
+Today she would stick to the main road, but from
+tomorrow on she would look for a quieter and
+maybe shorter path to school.
+<!--l. 42--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-3000"></a>*****</h4>
+<!--l. 44--><p class="noindent" >Sandi Griffin rode her convertible with the top
+down to enjoy the last rays of sunshine the year
+offered. The installed wind deflector ensured that
+her carefully styled hair did not get messed up by
+the draft.
+<!--l. 48--><p class="noindent" >&#171;<span 
+class="ecti-1095">Look at that loser walking ... hold it.</span>&#187;
+<!--l. 50--><p class="noindent" >Green army jacket, dark trousers, tall. Sandi was
+sure and slowed her approach. That was the new
+guy she had gotten a glimpse at yesterday, before
+he had vanished into the building. Sandi slowed
+down to bit above a pedestrian&#8217;s pace about
+eighty yards behind him to get a closer look. The
+reddish morning sun brought out some really red
+highlights in his brown wavey hair, which was well
+kept for a guy. He walked with a sure walk, and
+even if his butt ugly clothing hid most of his
+figure, it was clear that he had much to offer in
+that department.
+<!--l. 59--><p class="noindent" >The clothing could be exchanged easily, and her
+intuition was that his face would be sufficiently
+cute to match his body. This was a guy worthy to
+be seen with Sandi Griffin, the president of the  Fashion Club. Sandi closed the distance between
+ her and the guy, and as soon as she was level with
+ him, she addressed him, diverting her attention
+ between him and the road.
+ <!--l. 67--><p class="noindent" >&#8220;Hey, you, like, the new guy. I&#8217;m Sandi Griffin,
+ the president of the Lawndale High Fashion Club.
+ I really like strong tall guys. Could you take me to
+ an decent restaurant, I&#8217;m usually, like, hungry
+ after school?&#8221;
+ <!--l. 69--><p class="noindent" >&#171;<span 
+class="ecti-1095">One. Crap. And I haven&#8217;t even made it to school</span>
+ <span 
+class="ecti-1095">yet.</span>&#187;
+ <br class="newline" />&#8220;Me too. On both accounts.&#8221;
+ <!--l. 72--><p class="noindent" >Sandi hit the brake and looked at the guy who
+ stopped as well.
+ <br class="newline" />&#8220;Ex-cuse me? What was that?&#8221;
+ <!--l. 75--><p class="noindent" >Daria turned towards the girl, who sat in a yellow
+ convertible, and elaborated her answer.
+ <br class="newline" />&#8220;I like strong tall guys and am usually hungry
+ after school as well.&#8221;
+ <!--l. 79--><p class="noindent" >&#8220;You&#8217;re, like, gay?&#8221;
+ <br class="newline" />Sandi was dejected. The guy had a soft face with
+ full lips and a rather small nose for a guy. His
+ complexion was even with not even a hint of
+ beard. His pecs, hidden under the jacket, were
+ spectacular, as far as Sandi could see from her
+ car. If well behaved, a guy like him was a definite
+ candidate for a steady date.
+ <!--l. 87--><p class="noindent" >&#171;<span 
+class="ecti-1095">With that ego, there can&#8217;t be any room for</span>
+ <span 
+class="ecti-1095">thoughts in her head. And now I&#8217;m gay</span>&#187;
+ <br class="newline" />&#8220;No. Look Sandi Griffin, president of the
+ Lawndale High Fashion Club. We&#8217;re both girls,
+ and we both like guys. So let&#8217;s get on with our
+ lives.&#8221;
+ <!--l. 91--><p class="noindent" >Daria turned and continued on her way to school
+ without looking back.
+ <br class="newline" />&#171;<span 
+class="ecti-1095">That pass yesterday had at least some class, in a</span>
+ <span 
+class="ecti-1095">wicked sense.</span>&#187;
+ <br class="newline" />Daria would have preferred to go home. But she
+ knew it would be futile.
+ <!--l. 95--><p class="noindent" >Sandi looked at the leaving figure. &#171;<span 
+class="ecti-1095">Soooo hot ...</span>
+ <span 
+class="ecti-1095">hold it. RIGHT NOW. SHE. Girl. Female.</span>
+ <span 
+class="ecti-1095">Unattractive.</span>
+ <br class="newline" /><span 
+class="ecti-1095">What is it with me?</span>&#187;
+ <!--l. 99--><p class="noindent" >Sandi noted the clock on the dashboard. She&#8217;d
+                                                                                      
+
+                                                                                      
+have to hurry to make it in time for the pre-school
+color coordination meeting of the Fashion Club.
+<!--l. 102--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-4000"></a>*****</h4>
+<!--l. 104--><p class="noindent" >Jane Lane hurried to pack her school things,
+trying not to forget anything important. She had
+not overslept since she had not slept at all. Her
+thoughts had been too busy processing the events
+of yesterday&#8217;s afternoon. It took a pot of weapon
+grade coffee to get her going this morning, and
+her sleepy eyes spoke volumes. Luckily the Lane
+pantry was well stocked after the trip to the Food
+Lord the evening before. Trent&#8217;s plan to distract
+her had worked pretty well. Until she was back
+alone in her room.
+<!--l. 112--><p class="noindent" >Her pondering had led to no solution. She liked
+guys, that she was sure of. She was attracted to
+the body she had seen, that was sure as well. And
+it did not matter to her if it was a boy&#8217;s or a girl&#8217;s
+body. That was something she needed to come to
+terms with.
+<!--l. 117--><p class="noindent" >The girl was likely a senior, likely related to that
+tall red head that had been in the tour group as
+well. Because of this Jane was unlikely to cross
+her path, and could stall any thoughts of how to
+act around her - after the incident the day
+before - until the issue arose. In self-esteem
+class.
+<!--l. 122--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-5000"></a>*****</h4>
+<!--l. 124--><p class="noindent" >Daria continued her trek to school. She really
+hated this. It would pass away, but she hated
+it anyway. She&#8217;d love to lose the bet she&#8217;d
+made with her dad. She&#8217;d always hated to be
+a weedy bookish wallflower and would have
+liked some of the attention her sister got. That
+was, until about 3 years ago. Then she got all
+the attention she had ever wanted - and then
+some.                                       <br class="newline" />&#171;<span 
+class="ecti-1095">Beware of your wishes. They may come true.</span>&#187;
+ <!--l. 131--><p class="noindent" >Maybe things wouldn&#8217;t get that bad this time,
+ and she would find her niche, make some
+ acquaintances and mark her time at high school
+ in peace. Maybe even a real friend. Male or
+ female wouldn&#8217;t matter that much. Or maybe
+ even a nice, clean cut boyfriend that would be
+ able to deal with her. Nothing for an eternity.
+ Just for the time at school would be a perfect
+ start.
+ <!--l. 137--><p class="noindent" >She still did not understand how Quinn could revel
+ in all the gawking, pointing and the questions.
+ They were freaks of nature that did not fit in.
+ Well, that wasn&#8217;t right. She was a too large
+ square peg and Quinn a too large round peg.
+ Both did not fit into the round hole, but at least
+ Quinn looked as if she could.
+ <!--l. 143--><p class="noindent" >Only a few other students milled around as she
+ passed the main gate. They looked, but nothing
+ more. Convenient, to Daria&#8217;s taste. On her way to
+ the main entrance she saw two girls occupying the
+ same spot as the group of three had done the day
+ before. Maybe waiting for number three to
+ complete their circle.
+ <!--l. 148--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-6000"></a>*****</h4>
+ <!--l. 150--><p class="noindent" >Stacy and Tiffany waited at the usual spot
+ for their pre-school meeting. Stacy glanced
+ nervously at her watch. It was only two minutes
+ until the meeting would begin, and Sandi was
+ still not present. Sandi was always early. Did
+ they change the location and she missed it?
+ Would she lose her post as the Fashion Club&#8217;s
+ secretary? Would she be thrown out of the club
+ entirely?
+ <!--l. 156--><p class="noindent" >&#8220;Loooook.&#8221;
+ <!--l. 158--><p class="noindent" >Tiffany nodded towards the main gate and Stacy
+ followed her gaze. There he was, tall as the day
+ before. He wore basically the same clothes as
+ yesterday, but seeing his front was new. He wore
+ glasses and had a soft oval face. His step was
+                                                                                      
+
+                                                                                      
+purposeful, with a surprising grace. And between
+the straps of his backpack, his jacket revealed a
+nice set of breasts.
+<!--l. 164--><p class="noindent" >&#8220;Hmm, Tiffany, I think...&#8221;
+<!--l. 166--><p class="noindent" >Stacy&#8217;s glance wandered down, and found what
+she was looking for, but not really expecting.
+Adam&#8217;s apple: missing. Hips; female hips. Not
+prominent but present. Omygosh. A girl. That
+verified, she continued.
+<!--l. 170--><p class="noindent" >&#8220;...that this is not a guy. It&#8217;s a girl. A she.&#8221;
+<!--l. 172--><p class="noindent" >Tiffany&#8217;s gaze speechlessly followed the - Boy?
+Girl? - as - He? She? - walked towards the
+entrance. Once she passed the pair, Tiffany spoke
+up.
+<!--l. 175--><p class="noindent" >&#8220;I thinnnk you&#8217;re riiiight. That is sooooo wrong.&#8221;
+<!--l. 179--><p class="noindent" >&#8220;Did you see that, did you see that? It&#8217;s a girl, a
+woman. But she&#8217;s got muscles all over. Her
+hair&#8217;s nice. I don&#8217;t know about her face, the
+glasses need to go. But that chest and those
+shoulders...&#8221;
+<!--l. 181--><p class="noindent" >&#8220;If sheee wasn&#8217;t aaa girrrrl Iiii would daaate
+herrr.&#8221;
+<!--l. 183--><p class="noindent" >&#8220;Yeah. Yes. Me too.&#8221;
+<br class="newline" />&#171;<span 
+class="ecti-1095">Even if she&#8217;s a girl, she&#8217;s serious eye candy.</span>&#187;
+<!--l. 186--><p class="noindent" >They watched <span 
+class="ecbx-1095">her </span>vanish inside the building.
+<!--l. 188--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-7000"></a>*****</h4>
+<!--l. 190--><p class="noindent" >Sandi ran a little late due to her strange encounter
+with that ... girl. She still shivered inwardly at the
+thought of that episode. Her thoughts during that
+conversation had been so wrong. Walking fast,
+but graceful, Sandi reached her friends. Running
+was so geeky.
+<!--l. 196--><p class="noindent" >&#8220;Hello Stacy, hello Tiffany, I notice you really
+made it on time to our meeting.&#8221;
+<!--l. 198--><p class="noindent" >Stacy, a compulsive gossip, started to spill the
+news immediately.
+<!--l. 201--><p class="noindent" >&#8220;There&#8217;s big news. The guy from yesterday
+passed us again. Well, not really, because he
+isn&#8217;t. A guy I mean. She&#8217;s a girl. And wears
+glasses.&#8221;                                     <!--l. 203--><p class="noindent" >&#8220;Tell me something new. I already knew that.&#8221;
+ <!--l. 205--><p class="noindent" >&#8220;How did you...&#8221;
+ <!--l. 208--><p class="noindent" >&#8220;Gee Stacy, I have my own sources in the gossip
+ network. And I think they are better informed
+ than yours.&#8221;
+ <br class="newline" />&#171;<span 
+class="ecti-1095">There is no need for them to know about the less</span>
+ <span 
+class="ecti-1095">then stellar encounter between me and that ...</span>
+ <span 
+class="ecti-1095">freak.</span>&#187;
+ <!--l. 213--><p class="noindent" >&#8220;Yes, Sandi. The tall girl .... the other tall girl,
+ Quinn, did not pass by until now.&#8221;
+ <!--l. 219--><p class="noindent" >&#8220;I hope you did not overlook her while ogling that
+ she-male person, feeling attracted to a girl. Being
+ attracted to a girl is a big fashion don&#8217;t. Think
+ about those, like, you know, losers. Ew. Let&#8217;s
+ talk about something non-disgusting, say, the
+ latest Waif issue; I cannot afford to waste my
+ precious time by just waiting. Did you see those
+ ....&#8221;
+ <!--l. 221--><p class="noindent" >This started the color coordination meeting of the
+ Fashion Club. Every now and then a boy dropped
+ by to beg for a date, or a girl to beg about a
+ membership. An unusual amount of people,
+ especially boys, hung around the school yard in
+ general, and the noise level was basically too high
+ for an effective Fashion Club meeting. Some
+ people were just rude.
+ <!--l. 229--><p class="noindent" >&#171;<span 
+class="ecti-1095">The sophomore, junior and senior students must</span>
+ <span 
+class="ecti-1095">be like total ignorgas..., clueless people. Not a</span>
+ <span 
+class="ecti-1095">single one of them talked to me since we started</span>
+ <span 
+class="ecti-1095">our freshman year at LHS. They must be simply</span>
+ <span 
+class="ecti-1095">blind to real beauty.</span>&#187;
+ <!--l. 231--><p class="noindent" >Stacy whispered and pulled Sandi back to
+ reality.
+ <br class="newline" />&#8220;Sandi! Sandi! She&#8217;s here. She&#8217;s heading straight
+ over to us. You&#8217;re the president, must do something!
+ I couldn&#8217;t talk to her yesterday and she will
+ totally hate me and I will not be able to talk to
+ her either and I do not know how many classes we
+ will share and ...&#8221;
+ <!--l. 237--><p class="noindent" >And indeed, that Quinn girl came over. Sandi
+ scrutinized her during her approach thoroughly.
+ She was tall. She had long, flowing red hair. Her
+ long legs and well defined hips turned the school
+ yard into a catwalk and gave her an air of
+                                                                                      
+
+                                                                                      
+superiority. She wore boot cut blue jeans sporting
+some fashionable sneakers underneath. No heels.
+A pink baby-T showed off a decent amount of
+midriff including a flat tummy. It stretched a little
+bit across her chest, just the right amount to
+make men drool and women envious. Over that
+she wore a simple cut jacket against the fresh
+breeze. Sandi did not have to look around to
+know that no boy in the vicinity talked, and
+that all of their eyes were on her. She was
+very mature for a freshman and positively a
+looker. Sandi knew that her opponent had
+arrived.
+<!--l. 249--><p class="noindent" >She stopped a step away from the group. Sandi
+was about to consider this rude, but as she tried
+to look her in the eyes, she knew better. The
+place where she usually looked was occupied by
+the girl&#8217;s breasts.
+<!--l. 254--><p class="noindent" >&#8220;Hi, I&#8217;m Quinn Morgendorffer, aren&#8217;t you the girl
+that sat next to me in science class the other
+day?&#8221;
+<br class="newline" />she addressed Stacy who looked like a deer in the
+headlights.
+<!--l. 259--><p class="noindent" >&#8220;Hel-lo. I am Sandi Griffin, the president of the
+Lawndale High Fashion Club. This is Stacy Rowe,
+our secretary, and Tiffany Blum-Deckler, our color
+coordination officer.&#8221;
+<!--l. 261--><p class="noindent" >Stacy limited herself to a nod. Tiffany did
+nothing; her mind was completely occupied with
+processing the visual image of Quinn.
+<!--l. 264--><p class="noindent" >&#8220;Nice to meet you, Sandi, Stacy, Tiffany&#8221; Quinn
+politely replied.
+<!--l. 269--><p class="noindent" >&#8220;You are new at our school, one of the students
+that transferred in yesterday? Then you could not
+possibly know that Ms. Barch does not endorse
+conversations and note passing during class. As
+does any other teacher at this school.&#8221;
+<!--l. 272--><p class="noindent" >&#8220;Ah, yes, but I was not aware that violations are
+punishable by death. At least Stacy&#8217;s reaction
+looked like that.&#8221;
+<!--l. 274--><p class="noindent" >Stacy became a little nervous as she became
+aware that her reaction had looked tremendously
+impolite. The same nervousness that had made
+her react that way in the first place.           <!--l. 278--><p class="noindent" >Sandi elaborated.
+ <br class="newline" />&#8220;Ms.Barch reserves capital punishment for males.
+ But even as a female I would not recommend
+ straining her patience.&#8221;
+ <!--l. 282--><p class="noindent" >&#8220;Is this why the boys hardly dare to breathe?&#8221;
+ <!--l. 285--><p class="noindent" >&#8220;Yes. And it gives girls the chance for an easy
+ grade in science, which is why Stacy is in that
+ class.&#8221;
+ <!--l. 287--><p class="noindent" >&#8220;Hi Quinn!&#8221; Stacy said, now a little bit reassured.
+ The tall girl was an impressive sight, but seemed
+ to be quite amicable.
+ <!--l. 290--><p class="noindent" >&#8220;Hi Stacy, I wasn&#8217;t planning to get you into
+ trouble.&#8221;
+ <!--l. 292--><p class="noindent" >Sandi spoke up again to control the conversation.
+ She was the president of the Fashion Club. She
+ would do the talking.
+ <br class="newline" />&#8220;But your inconsiderate behaviour could have
+ really put Stacy on the spot and thus cast a
+ bad light at the Fashion Club. Therefore I
+ must urge you to refrain from that kind of
+ interaction with any members of the Fashion
+ Club.&#8221;
+ <!--l. 299--><p class="noindent" >&#8220;I&#8217;ll bear it in mind, since I like to stay out of
+ trouble firsthand. What does your &#8216;Fashion Club&#8217;
+ do to begin with?&#8221;
+ <!--l. 304--><p class="noindent" >&#8220;We set an example for the total population of
+ Lawndale on how to dress fashionably, and
+ inspire people to see the error of their ways of
+ fashion. Sometimes it takes real effort to make
+ people realize how ugly they dress. The fashion
+ violations seem to increase with every passing
+ day.&#8221;
+ <!--l. 306--><p class="noindent" >Quinn wasn&#8217;t sure if the girl meant to be rude, or
+ just sounded that way.
+ <br class="newline" />&#8220;Fashion violations?&#8221;
+ <!--l. 312--><p class="noindent" >&#8220;You for example are just abnormally tall. But
+ that she-male that transferred in yesterday as well
+ is a total butt-ugly freak. I can&#8217;t believe the laws
+ of nature allow the existence of such a foul
+ creature. And its sense of fashion is simply non
+ existant.&#8221;
+ <!--l. 314--><p class="noindent" >Sandi still could not forgive that girl for tricking
+ her to think she was a boy. Thank god her mishap
+ had happened out of sight of anyone. If that
+                                                                                      
+
+                                                                                      
+episode had happened on school grounds ... the
+possible rumors and the permanent damage those
+allegations could have to her popularity. Too bad
+that she was a girl...
+<!--l. 319--><p class="noindent" >Quinn&#8217;s esteem for Sandi Griffin, the Fashion
+Club president, dropped from &#8216;moron&#8217; over &#8216;scum&#8217;
+straight to &#8216;piece of shit&#8217;.
+<br class="newline" />&#8220;You mean like a wee bit smaller than me, brown
+hair, green jacket?&#8221;
+<!--l. 323--><p class="noindent" >Stacy&#8217;s eyes got big. The words were polite, the
+voice was sweet, but a slight change in Quinn&#8217;s
+body language promised trouble. She glanced at
+Tiffany, who returned the glance with an equal
+queasy feeling.
+<!--l. 327--><p class="noindent" >Sandi was pleased that the new arrival obviously
+had spotted the problem as well.
+<br class="newline" />&#8220;Ah, yes, you have seen that &#8216;girl&#8217; up close. She&#8217;s,
+like, optical pollution.&#8221;
+<!--l. 332--><p class="noindent" >Stacy knew she wasn&#8217;t a genius, but she could
+spot trouble. There was a reason why one does
+not call a football player stupid - at least not to
+their faces. She inwardly shivered at the idea of
+raw physical power unleashed. You could not
+keep a can of pepper spray at hand all the
+time.
+<!--l. 337--><p class="noindent" >&#171;<span 
+class="ecti-1095">You snotty bitch.</span>&#187;
+<br class="newline" />&#8220;That would be my sister.&#8221;
+<!--l. 340--><p class="noindent" >Sandi knew she stepped on a land mine. Attack
+was still the best defence.
+<!--l. 343--><p class="noindent" >&#8220;That makes it even worse, because that girl, like,
+has someone with a sense for fashion around but
+still does not know how to dress fashionably.&#8221;
+<!--l. 345--><p class="noindent" >&#171;<span 
+class="ecti-1095">You really failed the last reality check, didn&#8217;t</span>
+<span 
+class="ecti-1095">you?</span>&#187;
+<br class="newline" />&#8220;That girl has a name, it&#8217;s Daria, and I&#8217;d
+recommend not calling her any of that to her
+face. I don&#8217;t like people hurting other people.
+And I&#8217;d prefer if you would not badmouth <span 
+class="ecbx-1095">my</span>
+<span 
+class="ecbx-1095">sister </span>at all to begin with. I think it would be
+wise if you would not talk to or about her at
+all.&#8221;
+<br class="newline" />&#171;<span 
+class="ecti-1095">Unlike you, Daria has a soul. Even if she does</span>
+<span 
+class="ecti-1095">not like to admit it.</span>&#187;
+<!--l. 352--><p class="noindent" >&#171;<span 
+class="ecti-1095">But I&#8217;d like to talk to... ARGH. Get a grip,</span>   <span 
+class="ecti-1095">Griffin.</span>&#187;
+ <!--l. 354--><p class="noindent" >Sandi&#8217;s sortie did not have the effect she expected.
+ The slight glance in Quinn&#8217;s eyes made it clear
+ that she&#8217;d better drop the subject. Right now any
+ road led to a phalli..., pyro...., bad victory.
+ Appeasement seemed much better.
+ <!--l. 359--><p class="noindent" >&#8220;At least you dress fashionably, but those jeans
+ you&#8217;re wearing could use an update.&#8221;
+ <!--l. 361--><p class="noindent" >Quinn smoldered, but decided to play nice. &#171;<span 
+class="ecti-1095">It</span>
+ <span 
+class="ecti-1095">took a while, but you finally realize that it&#8217;s about</span>
+ <span 
+class="ecti-1095">time to shut up, Puny Griffin.</span>&#187;
+ <br class="newline" />&#8220;Well, I&#8217;m new in town, so I&#8217;m sure you can
+ point me to a store around here that carries
+ jeans in my size. During my stay in New York
+ during the summer I had a really hard time
+ finding clothes that come in my size and are
+ fashionable, but I&#8217;m confident that you know
+ where to find some here ... in the big city of
+ Lawndale.&#8221;
+ <!--l. 369--><p class="noindent" >Stacy had a hard time not smiling. This girl
+ was somebody that could easily match Sandi.
+ She felt a little uneasy about Quinn&#8217;s sister.
+ She was the most unique girl she had come
+ across so far, and simply intimidated her; even
+ more than Sandi. But maybe that was just a
+ prejudice.
+ <!--l. 374--><p class="noindent" >Sandi tried to slowly regain the upper hand.
+ <br class="newline" />&#8220;I think we may accept your company on one of
+ our Fashion Club shopping trips and show you the
+ stores with acceptable apparel. You moved from
+ New York to Lawndale?&#8221;
+ <!--l. 379--><p class="noindent" >&#8220;No, I was just there for summer classes.&#8221;
+ <!--l. 381--><p class="noindent" >The girls chatted a little about less sensitive
+ topics to get to know each other. Quinn learned
+ about Ms. Barch&#8217;s dislike for anything male, and
+ wondered if Daria had any classes with her.
+ Quinn also learned about the characters of the
+ Fashion Club&#8217;s members. Sandi was not impolite
+ towards her and her sister because they were new.
+ Sandi was generally impolite to everyone that
+ was not herself. She seemed to love to control
+ people. Either she did not know what image she
+ projected, or she didn&#8217;t care. Dealing with her
+ would be straining. Stacy was basically a sweet
+                                                                                      
+
+                                                                                      
+girl, but a scaredy-cat. She babbled a lot about
+vain things, and remained silent about anything
+important. Her eyes told about her inner conflict
+in such situations, so Quinn couldn&#8217;t label her
+dumb and superficial. Tiffany was difficult to
+understand. She didn&#8217;t talk much. In that regard
+she was like Daria. If she spoke, she spoke
+slow and simple - the exact opposite of Daria.
+Quinn got the impression that Tiffany was
+in general a little simple - and hoped to be
+wrong.
+<!--l. 396--><p class="noindent" >The girls walked together to their combined
+homeroom.
+<!--l. 398--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-8000"></a>*****</h4>
+<!--l. 399--><p class="noindent" ><a 
+ id="txt_rel10"></a>
+<!--l. 401--><p class="noindent" >Jane Lane made it into homeroom just in time.
+As usual, she grabbed her sketchbook from her
+backpack and flipped it to an empty page. She
+stalled at the sketches of Daria when Jane
+thought of her as a &#8216;Darius&#8217; and recalled her
+images from her memory. She couldn&#8217;t help it.
+Even if she knew that this was a girl, she felt still
+an attraction. Maybe it was the glorious figure.
+Maybe it was just the aura she projected. Maybe
+Jane was starting to come to terms that life was
+not as straight forward as she thought it would
+be.
+<!--l. 410--><p class="noindent" >After homeroom Jane made it on time to her
+American history class, where Mr DeMartino
+prepared to ream any unlucky students out that
+came in any second after the ring of the bell.
+Most students were already present, and as usual
+she avoided eye contact with anyone as she walked
+towards her customary seat on the left side of the
+class. Something felt different, and so she looked
+up and scanned the class room. Teacher&#8217;s pets:
+present. Jocks: present. Popular people: present.
+Nerds and geeks: present. Stoners: physically
+present. Weirdos, including herself: present. Big
+green blop slumped over a table in the last row: present.
+ <!--l. 421--><p class="noindent" >&#171;<span 
+class="ecti-1095">Damn! She&#8217;s a sophomore! She&#8217;s in this class! I</span>
+ <span 
+class="ecti-1095">... have no clue what to do.</span>&#187;
+ <!--l. 423--><p class="noindent" >Jane drew a blank and switched to auto-mode.
+ Ignore everybody, sit down, take notebook/sketchpad
+ out. Sketch until class begins. Avoid being caught
+ sketching by Mr. D.
+ <!--l. 427--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-9000"></a>*****</h4>
+ <!--l. 429--><p class="noindent" >Charles Ruttheimer III arrived early at school as
+ usual. He had to watch the girls, which was his
+ favorite occupation during his time at school,
+ since the classes didn&#8217;t really pose a challenge.
+ The week was so far still undecided. On Monday,
+ the rumor of some really really luscious lady
+ transferring in reached him. He was only able to
+ spot her between two classes from afar, and
+ found the rumours about her size being true.
+ As for her hotness, he hadn&#8217;t seen much, but
+ really liked the little that he had seen. He
+ had scheduled a thorough investigation for
+ today.
+ <!--l. 438--><p class="noindent" >He arrived as usual just on time at home room -
+ with Mr. DeMartino right before the American
+ history class - and found this ... person slouched
+ over in the usually unoccupied chair next to him.
+ Approaching his seat he filed the person under
+ &#8216;yet another football jock&#8217;. A jock with glasses, an
+ unusual haircut and a weird taste in clothes, but a
+ jock nevertheless.
+ <!--l. 444--><p class="noindent" >Homeroom with its announcements had been
+ unremarkable beside the surprised look that the
+ taut gazelle that was Jane Lane had cast at the
+ jock next to him. What was the story between
+ those two? That did not seem right.
+ <!--l. 448--><p class="noindent" >Mr. DeMartino introduced the jock, and
+ immediately put his crosshairs on him with the
+ intent to display his dislike of Kevin-alikes by
+ thoroughly humiliating them. Charles had been
+ about to fade into a nice daydream as he noted
+ that Mr D&#8217;s plan did not work out. Charles
+                                                                                      
+
+                                                                                      
+started to listen. The guy was very smart, and
+went straight head on with Mr. D. And something
+was wrong with his voice.
+<!--l. 455--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-10000"></a>*****</h4>
+<!--l. 457--><p class="noindent" >Jane followed the discussion and not her habit to
+immediately indulge in sketching as soon as Mr.
+DeMartino had picked a target. He was going
+unusually hard after Daria, for no reason she
+could fathom. And Daria kept up with profound
+answers. That girl was clearly smart. Smarter
+than Jane herself.
+<!--l. 462--><p class="noindent" >Jane listened to the voice that had haunted her
+through the night. A deep alto, but if you
+knew it, a girl&#8217;s voice. She felt compelled to
+look.
+<br class="newline" />&#171;<span 
+class="ecti-1095">Don&#8217;t turn! Don&#8217;t look at her! Jane, if you don&#8217;t</span>
+<span 
+class="ecti-1095">keep looking at Mr D. you may miss his eye pop</span>
+<span 
+class="ecti-1095">out for good! That&#8217;s better. But I really like her</span>
+<span 
+class="ecti-1095">voice. Monotone, but soothing. It makes me feel</span>
+<span 
+class="ecti-1095">so safe. And she&#8217;s a smart kid, too. I don&#8217;t</span>
+<span 
+class="ecti-1095">even know what language the last part was</span>
+<span 
+class="ecti-1095">in.</span>&#187;
+<!--l. 469--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-11000"></a>*****</h4>
+<!--l. 471--><p class="noindent" >Looking sideways Charles noted a rather soft face.
+What was the name, again? Daria. Ain&#8217;t that
+female? The realization came slowly onto Charles.
+That person was neither a jock nor a guy.
+That was the weirdest chick that had ever
+come under his eyes. And for the first time he
+encountered a female that <span 
+class="ecbx-1095">he </span>would reject. She
+was not for his taste. Clearly too masculine.
+He learned three valuable lessons during that
+class. Even he did not go for everything female
+including sheep, and he was positively not
+gay.
+                                            <!--l. 479--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-12000"></a>*****</h4>
+ <!--l. 481--><p class="noindent" >Jane listened to the conversation. Daria did not
+ know the teacher, but did not yield. That was a
+ risky gamble, especially with Mr. DeMartino, who
+ knew his subject well. And had a somewhat
+ unpredictable personality with a streak of cruelty.
+ <!--l. 486--><p class="noindent" >She shuddered at the memory of the episode when
+ he had caught her sketching once. Of course
+ he called her on it. Of course he figured out
+ after 30 seconds that she had not done the
+ assigned reading. Of course he spent an eternity
+ grilling her and point out every tiny hole in her
+ knowledge, liberally salted with condescending
+ remarks about her scholastic abilities. Which
+ were, considering her knowledge, or more the lack
+ thereof, justified. Jane learned some valuable
+ lessons that time.
+ <!--l. 494--><p class="noindent" >Don&#8217;t get caught sketching the class away.
+ At least skim the assigned chapters. Public
+ humiliation is a damn good motivator. And
+ she would never ever forget a single fact that
+ she was supposed to know, but didn&#8217;t at that
+ time.
+ <!--l. 499--><p class="noindent" >Daria was lucky. She went head on with an
+ opponent she didn&#8217;t know a thing about. That
+ was not good practice, but at least she did not get
+ into a defensive position. That line about not
+ having any ethics was creative, but likely a
+ blatant lie. She considered the concept, so at least
+ she had some vague ideas about it. Even Brittany
+ had ethics - even if she didn&#8217;t know about
+ it.
+ <!--l. 506--><p class="noindent" >Daria knew the answers and presented them with
+ a weird sense of humor. The good kind of weird.
+ And in addition, Daria had a serious backbone.
+ Not only physically, but mentally as well. Jane
+ liked that. If she could ever look that girl in
+ the eyes again, she would be a person worth
+ knowing.
+ <!--l. 511--><p class="noindent" >
+                                                                                      
+
+                                                                                      
+<h4 class="subsectionHead"><a 
+ id="x1-13000"></a>*****</h4>
+<!--l. 513--><p class="noindent" >&#8220;Two wars. More like a warlett and a war, in
+direct comparison.&#8221;
+<br class="newline" />&#171;<span 
+class="ecti-1095">What is your goddamn problem?! I didn&#8217;t do a</span>
+<span 
+class="ecti-1095">thing to you.</span>&#187;
+<!--l. 516--><p class="noindent" >Mr. DeMartino chuckled at her last comment.
+The girl had brainpower and matched him so far,
+and was amusing in her own way. He would shift
+his focus to an easier target.
+<!--l. 521--><p class="noindent" >&#8220;You can put it that way. NOW Kevin, what was
+the name of the first of the said wars?&#8221;
+<!--l. 523--><p class="noindent" >&#8220;The Vietnamese War?&#8221;
+<!--l. 525--><p class="noindent" >As Mr. DeMartino shifted his focus off of Daria
+and returned to his class Daria took some time to
+have a look at her new classmates between taking
+notes. In the front row sat a football player in
+his uniform currently making a fool out of
+himself by jumbling up about every historical
+fact he tried to come up with to answer the
+questions.
+<!--l. 534--><p class="noindent" >&#171;<span 
+class="ecti-1095">I can&#8217;t believe there are people as dumb as</span>
+<span 
+class="ecti-1095">him. And wear their sports uniform to class.</span>
+<span 
+class="ecti-1095">That blow-up doll next to him seems to be his</span>
+<span 
+class="ecti-1095">girlfriend. And she&#8217;s hardly smarter. God, should</span>
+<span 
+class="ecti-1095">they ever successfully reproduce, Darwin is</span>
+<span 
+class="ecti-1095">going to spin in his grave fast enough to undig</span>
+<span 
+class="ecti-1095">himself.</span>&#187;
+<!--l. 536--><p class="noindent" >Immediately afterwards Daria scolded herself for
+that thought. Despite often being subjected
+to prejudice on her own, she was not as free
+of them as she&#8217;d like to be. At least she had
+noticed and would now consciously give them a
+chance.
+<!--l. 540--><p class="noindent" >A pair of black students, a rare sight at LHS, sat
+in the front row as well. Make that a couple,
+the way they glance at each other every now
+and then. The black guy was of nice build, as
+far as she could tell from her position. The
+petite girl with the red hair sat in this class
+as well. She spotted her looking and gave a
+nod. Daria was not exactly happy with that,
+but nodded back to be polite. A row in front
+of her, several seats to her left sat the girl
+from self-esteem class. She busied herself with  sketching.
+ <!--l. 550--><p class="noindent" >&#171;<span 
+class="ecti-1095">I didn&#8217;t notice that yesterday, but I bet she has</span>
+ <span 
+class="ecti-1095">been sketching me all way through that class. She</span>
+ <span 
+class="ecti-1095">hasn&#8217;t seen me yet - or decides to ignore me. Suits</span>
+ <span 
+class="ecti-1095">me fine.</span>&#187;
+ <!--l. 552--><p class="noindent" >Other than that, the most remarking thing about
+ the class was Mr DeMartino&#8217;s speech pattern. He
+ emphasized syllables - and in unison his eye
+ seemed to get a little bigger.
+ <!--l. 559--><p class="noindent" >&#171;<span 
+class="ecti-1095">Either he&#8217;s a vet with an injury, or teaching at a</span>
+ <span 
+class="ecti-1095">high school is really as bad as I always suspected it</span>
+ <span 
+class="ecti-1095">was. Or both. But he isn&#8217;t half bad at teaching,</span>
+ <span 
+class="ecti-1095">knows his subject and makes funny remarks.</span>
+ <span 
+class="ecti-1095">Maybe we will get along after that sordid little</span>
+ <span 
+class="ecti-1095">episode.</span>&#187;
+ <!--l. 561--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-14000"></a>*****</h4>
+ <!--l. 563--><p class="noindent" >Charles received the last lesson after the class
+ ended, while everybody got up to head for the
+ next class. He stood up as Daria was picking
+ up her backpack from the floor. To his own
+ amazement, the thought to goose her didn&#8217;t
+ even cross his mind. This was not the third
+ lesson. That was the mortal fear he felt when
+ Daria erected herself about a foot away from
+ him. Well over 6 foot tall and at least 180
+ pounds of muscle she towered next to him, when
+ the thought that she could have sat beside
+ him for a reason crossed his mind. That she
+ was the prototype of a female according to
+ teachings of Barch. That she was likely out to get
+ him.
+ <!--l. 573--><p class="noindent" >He hightailed into the safety of the hallway and
+ knew that his looks at Daria would match the
+ looks Jane Lane gave her this morning.
+ <!--l. 576--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-15000"></a>*****</h4>
+ <!--l. 578--><p class="noindent" >The bell ended Daria&#8217;s first class at her new
+ school. Things hadn&#8217;t been bad so far, but until
+                                                                                      
+
+                                                                                      
+now she had been able to avoid most of her class
+mates. It helped that she had arrived early and
+that her homeroom had also been her first class.
+She stood up and grabbed her backpack. The
+students that just looked at her before now
+became really interested, and the boy with curly
+hair in Quinn&#8217;s color fled the room. It was likely
+the guy that had run into her in the hallway
+the day before. At least she wouldn&#8217;t have to
+explain about her gender with these people,
+her introduction by name had given that one
+away.
+<!--l. 587--><p class="noindent" >As she headed towards the door, the &#8216;QB&#8217;
+approached her, accompanied by his girlfriend.
+<br class="newline" />&#8220;Hey, new dude, you look like football player
+material. I see these things, because I&#8217;m the QB.
+Are you going to try out for the team?&#8221;
+<!--l. 592--><p class="noindent" >&#8220;Your name&#8217;s Kevin, right? I&#8217;m Daria.&#8221;
+<!--l. 594--><p class="noindent" >&#8220;Hi Daria. I&#8217;m Kevin, and I&#8217;m the QB! And this is
+my babe, Brittany.&#8221;
+<!--l. 596--><p class="noindent" >&#171;<span 
+class="ecti-1095">You got your chance, you messed up. You are</span>
+<span 
+class="ecti-1095">stupid and/or slow.</span>&#187;
+<br class="newline" />&#8220;I&#8217;m a girl, Kevin.&#8221;
+<!--l. 599--><p class="noindent" >&#8220;So, when will you be trying out for the team?&#8221;
+<!--l. 602--><p class="noindent" >&#171;<span 
+class="ecti-1095">Two. At least he does not try any high strung</span>
+<span 
+class="ecti-1095">pick-up lines on me. Anyway, this has to be</span>
+<span 
+class="ecti-1095">joke.</span>&#187;
+<br class="newline" />&#8220;I will not try out for the football team, Kevin.&#8221;
+<!--l. 605--><p class="noindent" >His girlfriend had eyed her throughout the
+conversation. She had verified Daria&#8217;s gender. For
+some reason, she did not seem to like the result
+and spoke up.
+<br class="newline" />&#8220;Kevvie, she&#8217;s a girl. She can&#8217;t be on the team.&#8221;
+<!--l. 610--><p class="noindent" >For the second time that day, Daria could not
+resist.
+<br class="newline" />&#8220;We&#8217;d have to shower together. Every day. You
+would like that?&#8221;
+<!--l. 613--><p class="noindent" >Kevin&#8217;s answer was instantaneous - he had not
+spent a single thought on it.
+<br class="newline" />&#8220;Sure!&#8221;
+<!--l. 616--><p class="noindent" >Brittany was not amused.
+<br class="newline" />&#8220;Kevvie! You just want her ... ooooooohhhhhhh!
+Pervert! Impure-thoughts-haver! You have me and
+still try... and she isn&#8217;t even a cheerleader...&#8221;    <br class="newline" />With that Brittany started to berate and swat
+ Kevin out of the class room. Before they were
+ through the door, Brittany looked over her
+ shoulder and shot Daria a real nasty glare.
+ <!--l. 625--><p class="noindent" >&#171;<span 
+class="ecti-1095">Game - set - match. This was so... unbelievable</span>
+ <span 
+class="ecti-1095">that I can&#8217;t even be mad at him.</span>&#187;
+ <br class="newline" />Daria was a little baffled. That girl likely felt
+ threatened by her. And not physically. Well, kind
+ of, but not in the bad way. That did not happen
+ often and made Daria feel pleased.
+ <br class="newline" />&#171;<span 
+class="ecti-1095">I&#8217;m such a mess. I like it when people hate</span>
+ <span 
+class="ecti-1095">me.</span>&#187;
+ <!--l. 631--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-16000"></a>*****</h4>
+ <!--l. 633--><p class="noindent" >Jane watched as Daria got up and moved towards
+ the door, but was intercepted by Kevin. The
+ comparison to &#8216;the QB&#8217; was impressive. She was
+ taller, and while Kevin looked more muscular, she
+ was. Jane&#8217;s artistic eye had no problem mentally
+ subtracting the padding he was wearing. She took
+ the opportunity to vanish from the class room
+ while Daria was distracted by Kevin&#8217;s stupidity to
+ make sure she would not talk to her. She simply
+ wasn&#8217;t prepared to face her.
+ <!--l. 640--><p class="noindent" >The last thing Jane saw from the hallway was
+ Mack and Jodie approach Daria from behind.
+ She had even Mack beat. And he on his own
+ was impressive. Jane had no idea what Jodie
+ did to keep him. If it wasn&#8217;t for her, the girls
+ would line up all around the block for him to
+ choose.
+ <!--l. 645--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-17000"></a>*****</h4>
+ <!--l. 647--><p class="noindent" >&#8220;Nice handling of Kevin here.&#8221;
+ <!--l. 649--><p class="noindent" >Daria turned around to find the black couple
+ standing behind her, grinning widely. The boy,
+ who had addressed her, spoke up again.
+ <!--l. 652--><p class="noindent" >&#8220;Hi, I&#8217;m Michael, but everybody calls me Mack.
+ That&#8217;s Jodie.&#8221;
+                                                                                      
+
+                                                                                      
+<!--l. 654--><p class="noindent" >Mack pointed at the girl beside him.
+<!--l. 657--><p class="noindent" >&#8220;Hi Michael, hi Jodie. I&#8217;m Daria, but you know
+that unless you slept through class.&#8221;
+<!--l. 659--><p class="noindent" >Close up Michael was a nice view. Three inches
+smaller than her, but with a nice build. His
+obvious girlfriend Jodie was the perfect match for
+him. She joined the conversation.
+<!--l. 663--><p class="noindent" >&#8220;And that&#8217;s a bad idea around Mr. DeMartino. Hi
+Daria.&#8221;
+<!--l. 666--><p class="noindent" >&#8220;Call me Mack, Daria. That was a really wicked
+move to sick Brit on him. But I guess that won&#8217;t
+work for me.&#8221;
+<!--l. 668--><p class="noindent" >Daria was pleasantly surprised by the friendly
+conversation with people who appreciated her
+humor.
+<br class="newline" />&#8220;I didn&#8217;t expect it to work that well. And you
+showering with Kevin isn&#8217;t a threat to Brit. I
+hope for Jodie here.&#8221;
+<!--l. 673--><p class="noindent" >Mack laughed. That girl was little hard to read,
+but smart, witty and with a good sense of humor.
+Jodie went to defend her man.
+<!--l. 677--><p class="noindent" >&#8220;Nah, I&#8217;m <span 
+class="ecbx-1095">very </span>sure that it isn&#8217;t. Mack&#8217;ll have to
+think of his own ways to get to Kevin.&#8221;
+<!--l. 679--><p class="noindent" >Jodie blushed a little as she saw the tiny smirk
+Daria directed at her. She had picked up the
+implicit information that Jodie didn&#8217;t intend to
+give.
+<!--l. 683--><p class="noindent" >&#8220;I&#8217;m the captain of the football team, and this is a
+hard job with him around.&#8221;
+<!--l. 685--><p class="noindent" >Daria immediately saw the problem.
+<br class="newline" />&#8220;No doubt about that. Sorry, but I need to get to
+my next class. Math.&#8221;
+<!--l. 688--><p class="noindent" >&#8220;We as well. And we...&#8221;
+<!--l. 690--><p class="noindent" >The offer was clear to Daria, but this was much
+too early to start to get chummy with other
+students.
+<br class="newline" />&#8220;Sorry, I need to stop by my locker. We&#8217;ll meet up
+there.&#8221;
+<br class="newline" />&#171;<span 
+class="ecti-1095">Jodie, you may be a nice girl, but you scream</span>
+<span 
+class="ecti-1095">&#8216;work&#8217; all over. I bet there&#8217;s hardly a club that</span>
+<span 
+class="ecti-1095">you&#8217;re not a member of. I&#8217;d better stay clear of</span>
+<span 
+class="ecti-1095">you, unless I want to be swamped with &#8216;voluntary&#8217;</span>
+<span 
+class="ecti-1095">extracurricular activities. You&#8217;d better found a</span>
+<span 
+class="ecti-1095">&#8216;keep-Michael-happy&#8217; society and be the sole</span>    <span 
+class="ecti-1095">member.</span>&#187;
+ <!--l. 699--><p class="noindent" >With those words Daria walked away.
+ <!--l. 701--><p class="noindent" >&#8220;Mack. Mack! Let&#8217;s get going.&#8221;
+ <!--l. 703--><p class="noindent" >&#8220;Hmm? Ah, hand me your bag.&#8221;
+ <!--l. 705--><p class="noindent" >&#8220;Thanks Michael, that&#8217;s sweet.&#8221;
+ <!--l. 707--><p class="noindent" >Jodie and Mack walked off in silence. Before
+ they reached the class room, Mack spoke up
+ again.
+ <!--l. 710--><p class="noindent" >&#8220;She&#8217;s odd. But alright.&#8221;
+ <!--l. 713--><p class="noindent" >&#8220;It&#8217;s going to take a while to get used to her. I
+ have some mixed feelings about her.&#8221;
+ <!--l. 715--><p class="noindent" >&#8220;Hmm, why?&#8221;
+ <!--l. 719--><p class="noindent" >&#8220;Mack, she&#8217;s an about 16 year old girl that
+ is taller than you and likely outweights you
+ - and not by additional fat. She&#8217;s smart as
+ well. And that does not strike me as a healthy
+ combination.&#8221;
+ <br class="newline" />&#171;<span 
+class="ecti-1095">I know what kind of girls you like. That glare</span>
+ <span 
+class="ecti-1095">Brit shot at her really worries me.</span>&#187;
+ <!--l. 723--><p class="noindent" >&#8220;Don&#8217;t tell me you of all people have prejudices.&#8221;
+ <!--l. 726--><p class="noindent" >&#8220;No, Mack. But discretion is the better part of
+ valor. I&#8217;d like to know her a little better before I
+ get all chummy with her.&#8221;
+ <br class="newline" />&#171;<span 
+class="ecti-1095">That girl will need some friends. Just friends.</span>
+ <span 
+class="ecti-1095">I&#8217;m sure.</span>&#187;
+ <!--l. 729--><p class="noindent" >&#171;<span 
+class="ecti-1095">Jodie, you don&#8217;t have enough time to be all</span>
+ <span 
+class="ecti-1095">chummy with yourself.</span>&#187;
+ <br class="newline" />&#8220;Hmm. We&#8217;ll see.&#8221;
+ <!--l. 732--><p class="noindent" >&#8220;My point exactly.&#8221;
+ <!--l. 12--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-18000"></a>*****</h4>
+ <!--l. 13--><p class="noindent" ><a 
+ id="txt_rel11"></a>
+ <!--l. 15--><p class="noindent" >The math class was pleasantly unexciting. The
+ teacher did welcome Daria, but did not try to
+ single her out as Mr. DeMartino did. Of course he
+ called on her to probe her level, but he seemed to
+ be satisfied by a single correct answer. After
+ the class a boy asked her how tall she was,
+ and several students stuck around to make
+ sure they overheard the answer. The boy was
+ polite about it, and was not obvious about
+                                                                                      
+
+                                                                                      
+looking her over. So Daria answered politely, and
+left an awed crowd behind as she headed for
+PE.
+<!--l. 23--><p class="noindent" >Daria was a little anxious about PE. She wasn&#8217;t
+bad at sports. She wasn&#8217;t afraid to change in the
+locker room - what for? But the possible reactions
+of the other girls could be... adverse. Well, time to
+find out. Daria steeled herself, entered the girls
+locker room and moved towards an empty spot on
+the benches to change.
+<!--l. 29--><p class="noindent" >&#8220;HEY YOU! THIS IS THE GIRLS LOCKER
+ROOM!&#8221; screamed a girl that had faced away
+from Daria as she passed by her and turned
+around to identify the unfamiliar silhouette.
+<!--l. 33--><p class="noindent" >&#171;<span 
+class="ecti-1095">Three.</span>&#187;
+<br class="newline" />&#8220;Yep.&#8221;
+<!--l. 36--><p class="noindent" >&#8220;GET OUT, GUY!&#8221; another girl joined in as
+Daria started to turn back.
+<!--l. 38--><p class="noindent" >&#171;<span 
+class="ecti-1095">Four. But I&#8217;m not sure if that really counts.</span>&#187;
+<br class="newline" />&#8220;Excuse me? I&#8217;m ...&#8221;
+<!--l. 41--><p class="noindent" >&#8220;GET OUT YOU DEGENERATED SICK
+FREAK!&#8221; the first girl screamed again.
+<!--l. 43--><p class="noindent" >&#8220;Look, ...&#8221;
+<!--l. 45--><p class="noindent" >The herd-like behaviour kicked in at full throttle.
+Daria&#8217;s attempts of an explanation were drowned
+out by the multiple exclamations of &#8216;Get Out!&#8217;,
+&#8216;Pervert!&#8217;, &#8216;Get the coach!&#8217;, &#8216;Peeping Tom!&#8217; as
+more and more girls joined in. Things started to
+get really out of hand as Daria caught the first
+soap bar that was flung at her. She started to get
+agitated and knew that early venting would be
+the best way to prevent a blow up.
+<!--l. 52--><p class="noindent" >&#8220;I&#8217;M A FEMALE AND I AM REQUIRED
+TO CHANGE IN HERE!&#8221; she roared at the
+top of her voice. Reverberating from the tiled
+areas of the locker room her words stood in
+impressive contrast to the then ensuing silence.
+Daria had to strain herself not to fling the
+soap bar back at its owner. But she felt better
+now.
+<!--l. 58--><p class="noindent" >&#8220;What&#8217;s going on in here?&#8221; demanded Ms. Morris
+into the silence as she hurried into the locker
+room to investigate the ruckus. She spotted the
+big girl standing in the aisle between two rows oflockers, and several of the other girls in different
+ states of undress up the aisle trying to cover
+ themselves up. She remembered Ms. Li&#8217;s short
+ briefing. Two new girls, both tall; one lanky,
+ Quinn, one muscular, Daria. No doubt, that was
+ Daria. And her figure matched in shape the senior
+ football players. Impressive.
+ <!--l. 66--><p class="noindent" >&#8220;They&#8217;d like me to leave the locker room.&#8221;
+ <!--l. 68--><p class="noindent" >&#8220;And why would be that, ladies?&#8221;
+ <!--l. 70--><p class="noindent" >&#171;<span 
+class="ecti-1095">You&#8217;ve been briefed, haven&#8217;t you?</span>&#187;
+ <br class="newline" />&#8220;Ignorance, blindness, prejudices, general
+ cluelessness?&#8221; offered Daria a little peeved. That
+ was more hostility than she had expected.
+ <!--l. 74--><p class="noindent" >Seeing Daria from the front, the realization slowly
+ sunk in with the other girls.
+ <!--l. 77--><p class="noindent" >&#8220;We thought...&#8221;
+ <!--l. 82--><p class="noindent" >&#8220;You thought wrong. I recommend verifying your
+ assumptions before you start accusing next time.
+ Unless you want to see Ms. Li for harassment,
+ that is. Do I make myself clear, ladies? You&#8217;re
+ Daria, right? Go change. And anybody late is
+ going to do 10 additional laps.&#8221;
+ <!--l. 84--><p class="noindent" >Ms. Morris left and the silence was replaced by
+ a multitude of murmurs that merged into a
+ constant background noise. Daria was sure she
+ was the sole topic of all conversations, but
+ also knew that there was no way to change
+ that fact. She just headed over to the spot
+ she had in mind right from the beginning,
+ and started to change. None of the girls that
+ started the ruckus made any attempt to offer an
+ apology, but she could feel their stares as she
+ started to undress. Jacket. Boots. Socks. Jeans.
+ T-shirt. Switching bra and panties for something
+ suitable for PE she put on her LHS PE uniform
+ - the male version in XL size. She thought
+ she had heard someone whistle, but couldn&#8217;t
+ tell for sure. And if so, it was likely for the
+ nasty bruise she had still on her back from her
+ final training in Highland. But that didn&#8217;t
+ matter.
+ <!--l. 96--><p class="noindent" >&#171;<span 
+class="ecti-1095">Let&#8217;s see what girls&#8217; PE is like at LHS.</span>&#187;
+                                                                                      
+
+                                                                                      
+<!--l. 98--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-19000"></a>*****</h4>
+<!--l. 100--><p class="noindent" >After coach Morris settled the things in the girls&#8217;
+locker room, Jane retreated back into her corner
+into the cover of the locker row. But Daria settled
+down at the end of the bench that Jane just had
+an unobstructed view on. Jane was already
+changed, but instead of immediately heading into
+the sports hall and getting some laps done Jane
+opted for observation.
+<!--l. 106--><p class="noindent" >Daria did not make a fuss but undressed
+systematically. Without her clothes, her body had
+a nice muscular tone without the obtrusiveness of
+those body building types. Her waistline and hips
+were not as prominent as usual with women, but
+Jane was in no position to comment negatively on
+that. A large ageing bruise was prominent on her
+left shoulder blade.
+<!--l. 114--><p class="noindent" >&#171;<span 
+class="ecti-1095">Did she get into a fight? There must be some</span>
+<span 
+class="ecti-1095">story to it... Did somebody just whistle? You&#8217;re in</span>
+<span 
+class="ecti-1095">for a disappointment; she likes boys. I know it</span>
+<span 
+class="ecti-1095">right from the horse&#8217;s mouth.</span>&#187;
+<!--l. 116--><p class="noindent" >Daria wore a surprisingly nice set of bra and
+panties. Jane had expected her to wear the
+utilitarian sports underwear she put on for PE. To
+her own amazement, Jane&#8217;s subtle feeling of
+attraction to her did not diminish after having
+Daria&#8217;s femininity on full display.
+<!--l. 126--><p class="noindent" >&#171;<span 
+class="ecti-1095">She&#8217;s female, no doubt about that. Compared to</span>
+<span 
+class="ecti-1095">her, everyone else in here is not just tiny, but also</span>
+<span 
+class="ecti-1095">just a girl. This really weirds me out a little.</span>
+<span 
+class="ecti-1095">And having her around in every other class</span>
+<span 
+class="ecti-1095">does not exactly help. At least she did get a</span>
+<span 
+class="ecti-1095">boys&#8217; size PE uniform. Smart move, I think</span>
+<span 
+class="ecti-1095">even the girls&#8217; XL would mean &#8216;bare midriff&#8217;</span>
+<span 
+class="ecti-1095">for her. And be as tight around her chest as</span>
+<span 
+class="ecti-1095">Brittany&#8217;s.</span>&#187;
+<!--l. 128--><p class="noindent" >Jane stopped her observation and headed for the
+hall before Daria noted her staring at her. That
+would have been a very undesirable development.
+<!--l. 131--><p class="noindent" >                                            <h4 class="subsectionHead"><a 
+ id="x1-20000"></a>*****</h4>
+ <!--l. 133--><p class="noindent" >After the scene in the locker room, the PE class
+ was relaxingly uneventful. No girl wanted to do
+ the back stretches with Daria, but that was for
+ the good reason that none came even close to her
+ height and weight. Ms. Morris filled in, but had a
+ hard time lifting Daria.
+ <!--l. 138--><p class="noindent" >Ms. Morris monitored Daria&#8217;s performance closely.
+ She was strong. Her well toned muscles moved
+ under her skin as she moved. Ms. Morris spotted
+ a few girls looking more than necessary. She had
+ endurance as well, but wasn&#8217;t a good runner due
+ to her body mass. Her body coordination was
+ quite good, and she was sufficiently flexible, but
+ not exactly graceful. As expected, Daria was
+ athletic, but not in any of the core activities of
+ the class. Ms. Morris shuddered at the idea of
+ what that kid would do in game of volley or
+ basket ball among the girls. Or soccer.
+ <!--l. 147--><p class="noindent" >Maybe she would have to deal with her similar to
+ that Lane kid, who would purposefully piss her off
+ to be sent off to run laps. This was a good
+ deal for both parties. The Lane girl got to
+ run - and she did not slack off at running;
+ she could only be a half-Lane, at most - and
+ stayed clear of Ms. Morris. Ms. Morris would
+ have liked to forgo the pissing-off, but that
+ ensured that nobody could get on her back for
+ favoritism.
+ <!--l. 154--><p class="noindent" >Ms. Morris was pleased to see that Daria was
+ quite well versed in safety. Once assigned the job,
+ she diligently and skillfully secured all girls during
+ their jumps. She never lost the focus on the task,
+ and Ms. Morris was sure that Daria would catch a
+ falling girl - not just soften the fall by using her
+ own body as padding, as the other girls did. That
+ had potential.
+ <!--l. 160--><p class="noindent" >&#8220;OK ladies! That&#8217;s it, hit the showers!&#8221; Ms.
+ Morris dismissed the class, and found Daria
+ heading straight towards her.
+ <!--l. 163--><p class="noindent" >
+                                                                                      
+
+                                                                                      
+<h4 class="subsectionHead"><a 
+ id="x1-21000"></a>*****</h4>
+<!--l. 165--><p class="noindent" >Doing her laps, circling the entire gymnasium,
+Jane watched Daria being directed through the
+different exercises by Ms. Morris. She didn&#8217;t do
+badly, but not exactly well either. That stuff was
+obviously not up her lane. It was funny, though,
+to see her &#8216;throw&#8217; a girl across the vaulting horse
+that took too little startup while Daria was on
+safety duty.
+<!--l. 171--><p class="noindent" >After Ms. Morris dismissed the class, Jane
+immediately headed for the showers. She&#8217;d
+been running more than half an hour non-stop
+and broken a nice sweat. She used the time to
+think about exactly that: the shower. Daria
+in the shower. And Jane reluctantly had to
+admit to herself that she was looking forward to
+it.
+<!--l. 177--><p class="noindent" >She was a little crestfallen when Daria didn&#8217;t
+show up.
+<!--l. 181--><p class="noindent" >&#171;<span 
+class="ecti-1095">Is she too anxious to shower with the other girls</span>
+<span 
+class="ecti-1095">after what happened before and planning to stall</span>
+<span 
+class="ecti-1095">into the lunch break? She&#8217;s not shy per se, as</span>
+<span 
+class="ecti-1095">openly as she changed before class.</span>&#187;
+<!--l. 183--><p class="noindent" >As Jane pondered, Daria walked into the showers
+wearing nothing but flip-flops, her towel over her
+right shoulder and the soap in her hand. She took
+the first available shower, adjusted the much too
+low shower head and cleaned herself. Jane&#8217;s eyes
+nearly bugged out.
+<!--l. 190--><p class="noindent" >&#171;<span 
+class="ecti-1095">She did not even think about covering herself!</span>
+<span 
+class="ecti-1095">I&#8217;m not exactly modest, but I try to limit my</span>
+<span 
+class="ecti-1095">exposure. Shy and anxious? I bet she needs a</span>
+<span 
+class="ecti-1095">dictionary to look those words up.</span>&#187;
+<!--l. 192--><p class="noindent" >Jane took her time under the shower to watch
+Daria. She really enjoyed the show that came with
+a clinical shower. She glanced at the other
+girls in the shower. Some were scandalized
+by her open display. Some seemed envious
+about that athletic body. Others just awed
+by its size. But some others seemed to enjoy
+the show at least to Jane&#8217;s level. In general,
+suspiciously few girls left the showers while Daria
+was in there. Those who did, left in quite a
+hurry.                                       <!--l. 202--><p class="noindent" >&#171;<span 
+class="ecti-1095">Girl, are you aware that this show will grant you</span>
+ <span 
+class="ecti-1095">the star role in numerous upcoming squishy</span>
+ <span 
+class="ecti-1095">lesbian wet dreams? You better write yourself a</span>
+ <span 
+class="ecti-1095">sign: &#8216;I like boys&#8217;. No. &#8216;I like men&#8217;.</span>&#187;
+ <!--l. 204--><p class="noindent" >Jane inconspicuously left the shower as she saw
+ that Daria was nearly done with her task, toweled
+ herself and changed into her street clothes.
+ The visual she had gotten during the shower
+ would require several studies to process. Maybe
+ she could do a first charcoal sketch during art
+ class.
+ <!--l. 209--><p class="noindent" >&#171;<span 
+class="ecti-1095">Damn. I hope those images won&#8217;t pop up in my</span>
+ <span 
+class="ecti-1095">mind at the wrong time.</span>&#187;
+ <!--l. 211--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-22000"></a>*****</h4>
+ <!--l. 213--><p class="noindent" >Having PE just before the lunch break was a
+ blessing that Daria knew to appreciate. After
+ unloading her backpack into her locker she headed
+ straight for the lunch room and queued for a
+ lunch. With a laden try, she sat down at a
+ sparsely occupied table that seemed to promise
+ some privacy during her lunch.
+ <!--l. 218--><p class="noindent" >Daria found her fear of the local cafeteria food
+ confirmed. The food was plain bad. The soup was
+ a salt lake. How does one manage to mess noodles
+ up? The meat was either road kill or Soylent
+ Green. The vegetables were ... recognizable as
+ vegetables. Barely. Her father&#8217;s meals were a
+ challenge, but better. And what was it with
+ the meal that looked like leftovers from the
+ day before? Daria was planning to give the
+ food a try this week, and unless it improved
+ dramatically, she would start to bring a boxed
+ lunch.
+ <br class="newline" />&#171;<span 
+class="ecti-1095">Dream on girl.</span>&#187;
+ <!--l. 227--><p class="noindent" >&#8220;Is this seat taken?&#8221;
+ <!--l. 229--><p class="noindent" >The voice woke Daria from her thoughts. The
+ Ankh-girl was standing across from her with her
+ tray in hand and pointed at the chair. Daria
+ shook her head.
+ <!--l. 232--><p class="noindent" >&#8220;Hi Daria&#8221; said the petite girl with the dyed red
+                                                                                      
+
+                                                                                      
+hair.
+<!--l. 234--><p class="noindent" >&#171;<span 
+class="ecti-1095">I&#8217;ve been pinpointed enough for you to get my</span>
+<span 
+class="ecti-1095">name, but...</span>&#187;
+<br class="newline" />&#8220;Hello Ms. Pennsylvania.&#8221;
+<!--l. 238--><p class="noindent" >&#8220;Oh, I didn&#8217;t give you my name yet. My name
+is ... just call me Scarlett, as everybody else
+does.&#8221;
+<!--l. 240--><p class="noindent" >&#171;<span 
+class="ecti-1095">I don&#8217;t care what your name is. Just do not make</span>
+<span 
+class="ecti-1095">puppy eyes at me.</span>&#187;
+<br class="newline" />&#8220;Enjoy your meal, Scarlett.&#8221;
+<!--l. 243--><p class="noindent" >Providing an opportunity to stall any conversation,
+Daria attacked her meal with new vigor. Scarlett
+watched a while and ate herself a little.
+<!--l. 248--><p class="noindent" >&#8220;I realize you&#8217;re having a different selection than I
+am, but I doubt your choice is so much better
+than mine. What&#8217;s with the eagerness? Do you
+want me to leave?&#8221;
+<!--l. 250--><p class="noindent" >&#8220;It&#8217;s a free country.&#8221; Daria shrugged and continued
+with her meal.
+<!--l. 252--><p class="noindent" >Scarlett sensed Daria&#8217;s unwillingness to interact
+with her.
+<!--l. 255--><p class="noindent" >&#171;<span 
+class="ecti-1095">You&#8217;re a tough nut to crack. But even if this is</span>
+<span 
+class="ecti-1095">going to take a while, from what I&#8217;ve seen in PE</span>
+<span 
+class="ecti-1095">this is so going to be worth the effort...</span>&#187;
+<!--l. 257--><p class="noindent" >Daria and Scarlett ate in silence, each in her own
+world, and did not care about the rest of the
+lunch room. Silence was a state that suited
+Daria. With the proper people, talking was just
+not required. With the wrong people, it was
+pointless.
+<!--l. 262--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-23000"></a>*****</h4>
+<!--l. 264--><p class="noindent" >Jodie sat across from Mack and ate her lunch
+while retelling the events that led to the ruckus in
+the girls&#8217; locker room before PE. Mack got a good
+laugh out of it and returned the favor by telling
+some of the even more stupid than usual antics
+that Kevin performed during PE. Like pulling a
+Tommy Sherman. Jodie decidedly did not tell
+anything else about Daria. What she had seen
+in the showers had her really worried. Daria    gave a very male first impression. But seeing
+ her au naturel in the shower left no doubt
+ that she was a healthy girl. Make that woman.
+ Different from your usual expectations, but a
+ woman all right. Mack did not need to know
+ that.
+ <!--l. 274--><p class="noindent" >Brittany sat with her fellow cheerleaders to gossip
+ before hooking up with their respective boyfriends
+ (or not) from the football team. Part of the gossip
+ were the new girls, obviously. Daria was found to
+ be a girl, and a shameless one at that. Even the
+ cheerleaders had their limits when it came to
+ handling a razor. Otherwise her body was a
+ failure. Muscles all over, and unless naked hard
+ to distinguish from a guy. Brittany&#8217;s initial
+ assessment of her was found to be wrong. No
+ healthy guy would go for a girl like her, but the
+ lesbians would be all over her. And most likely
+ she would fit in perfectly with that bunch,
+ given how she was sitting with the petite red
+ head that made, very discreetly, puppy eyes at
+ her.
+ <!--l. 285--><p class="noindent" >The tall red head was another deal. She was just a
+ freshman and only two weeks into the year
+ there weren&#8217;t any freshman on the squad yet,
+ so the gossip was severely limited. She was
+ tremendously cute, tall and mature for being a
+ freshman. All guys - not just the freshman - really
+ enjoyed looking at her. But her size was also her
+ weak spot. Hardly any boy could approach
+ a girl like her without getting dwarfed. The
+ verdict was, that she was likely to stir up the
+ popular circles (she had been seen hanging
+ around with the Fashion Club!), but was no
+ threat to the cheerleading squad. At least not
+ yet.
+ <!--l. 294--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-24000"></a>*****</h4>
+ <!--l. 296--><p class="noindent" >Quinn&#8217;s classes progressed slowly but steadily.
+ The chairs at LHS were seriously small for a
+ person of her size, and unless she extended her
+                                                                                      
+
+                                                                                      
+legs way under the chair in front of her, she
+was really cramped. She shared many of her
+classes with at least one of the girls from that
+Fashion Club. She was not sure if they made
+potential friends. That Sandi girl was incredibly
+snotty.
+<!--l. 302--><p class="noindent" >Quinn quickly learned about the groups at high
+school; they weren&#8217;t that different from the ones
+at middle school. There were jocks from the
+teams, who associated with the cheerleaders and
+the other popular people. The &#8216;involved&#8217; students.
+The nerds and geeks that stuck to themselves.
+Skaters. Metal heads. Punks. Stoners. Well, those
+were new compared to middle school, at least in
+their abundance. Goths. All those had found their
+friends and were integrated in a group, even the
+freshman.
+<!--l. 310--><p class="noindent" >Transferring schools just two weeks into the
+term was really a bad time. People had just
+made new acquaintances and were too busy
+converting them to friends to have time to
+care for some new arrivals. Quinn had seen
+the outcasts, who stuck to themselves. They
+could be a large group, but just didn&#8217;t interact.
+Quinn was sure that this was the not-group that
+Daria would join. She had her own agenda and
+would welcome the solitude. Daria was like a
+leopard. She needed her freedom and walked
+alone. And Quinn knew she was capable of
+sleek movements that simply betrayed her
+frame.
+<!--l. 319--><p class="noindent" >Quinn, however, was like a bunny. Maybe a huge
+bunny, but a bunny nevertheless. A life like that
+was her worst nightmare. It would kill her. Very,
+very slowly and painfully. Her mom would be
+on her back, her dad would be clueless, and
+Daria would neither see nor understand her
+problem. Quinn knew she wouldn&#8217;t make friends
+immediately, but she could not allow herself to
+wait too long before acting. Maybe those Fashion
+Club girls, they knew about dating, and fashion
+and...
+<!--l. 327--><p class="noindent" >She was aware of the stares she got. Much more
+than in middle school. The students talked abouther without including her. Some girls and boys
+ asked about her size, and she saw some bills
+ being passed around after her answer. Daria
+ would so fit into this. Not a single boy made
+ an attempt to really talk to her. That really
+ sucked.
+ <!--l. 333--><p class="noindent" >At least her teachers gave her much leeway and
+ didn&#8217;t single her out. She was new at high
+ school and had missed two weeks. But that was
+ going to be temporary. Quinn was glad that
+ she had a capable and willing tutor at call.
+ Daria.
+ <!--l. 338--><p class="noindent" >Daria seemed to have made an impact as well.
+ There was gossip about a new guy, likely senior,
+ that looked as a perfect addition to the football
+ team. And since Quinn knew there was no
+ such guy among the group of new arrivals, she
+ was sure that someone had mistaken Daria -
+ again.
+ <!--l. 343--><p class="noindent" >PE class would settle that rumor. And like a
+ hydra&#8217;s heads there would be three new rumors
+ in an instant. Quinn was not happy about
+ that. Daria didn&#8217;t like attention. She would be
+ moody. Quinn would have to plan in order to
+ minimize her stay at home during the upcoming
+ weekend.
+ <!--l. 348--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-25000"></a>*****</h4>
+ <!--l. 349--><p class="noindent" ><a 
+ id="txt_rel12"></a>
+ <!--l. 351--><p class="noindent" >After her previous experience in the self-esteem
+ class with Mr. O&#8217;Neill Daria was not happy with
+ him being her English teacher as well. While
+ English was her favorite subject, a teacher like
+ him had the potential to ruin it permanently for
+ her. Her hope was that his intellectual capacity
+ would not limit him to reciting paragraphs from
+ &#8216;Shakespeare for dummies&#8217;, as it did in that darn
+ self-esteem class. Otherwise she would have to
+ consider a hipflask with some serious drink to
+ fast-forward through his class.
+ <br class="newline" />&#171;<span 
+class="ecti-1095">Mom and Dad would reaaaally love that.</span>&#187;
+                                                                                      
+
+                                                                                      
+<!--l. 360--><p class="noindent" >She was relieved that the focus on her had
+dropped a little once she was in the classroom.
+Most of the people in this class had seen her in
+one of the previous classes that day, so her novelty
+had worn off. Jodie and Mack were in the class as
+well as Brittany and Kevin. Daria set off to
+occupy an arbitrary seat, but as she passed
+Jodie&#8217;s first row seat on the way, the black girl
+spoke up.
+<!--l. 367--><p class="noindent" >&#8220;Ah, Daria, please don&#8217;t take just some random
+seat.&#8221;
+<!--l. 369--><p class="noindent" >Confused, Daria stopped and faced Jodie. Her
+decidedly neutral voice let Daria answer in the
+best monotone she could muster.
+<br class="newline" />&#8220;Why that?&#8221;
+<!--l. 373--><p class="noindent" >Jodie was not comfortable around Daria. History
+and PE had shown that the girl had brain
+and body. Lots, and they shared too many
+classes.
+<br class="newline" />&#8220;O&#8217;Neill needs a seating chart.&#8221;
+<!--l. 377--><p class="noindent" >&#171;<span 
+class="ecti-1095">That guy gets better and better...</span>&#187;
+<br class="newline" />&#8220;Ah, he never forgets a name - just the face that
+goes with it.&#8221;
+<!--l. 380--><p class="noindent" >Jodie and Mack gave a little chuckle at her
+comment, but to Daria Jodie&#8217;s sounded forced.
+<br class="newline" />&#8220;There is no way that he&#8217;s going to mistake you
+for someone else. The original occupant of the
+seat however...well, let&#8217;s say I just don&#8217;t want to
+have to prompt for him all the time.&#8221;
+<!--l. 386--><p class="noindent" >&#171;<span 
+class="ecti-1095">You make yourself everyone&#8217;s lackey, don&#8217;t</span>
+<span 
+class="ecti-1095">you?</span>&#187;
+<br class="newline" />Daria shrugged and headed back to the door. She
+noted that the Lane girl was in the class as well,
+and she busied herself with her sketchpad while
+ignoring the world around her.
+<br class="newline" />&#171;<span 
+class="ecti-1095">Hmm, maybe writing through class is an option.</span>
+<span 
+class="ecti-1095">At least it&#8217;s more approved than getting drunk.</span>
+<span 
+class="ecti-1095">And kills less brain cells.</span>&#187;
+<!--l. 393--><p class="noindent" >Daria sat in the chair next to the door waiting for
+Mr. O&#8217;Neill&#8217;s arrival until its original occupant
+showed up. Being primed by Jodie, she willingly
+vacated the seat and leant to the wall next to it.
+She used the waiting time to observe her class
+mates. The ankh-girl, Scarlett, was in this class aswell. The rest of her class mates were rather
+ nondescript. A girl in a goth-type outfit caught
+ her eye; she wore a single glove.
+ <br class="newline" />&#171;<span 
+class="ecti-1095">Asymmetry. The brain just notices it without</span>
+ <span 
+class="ecti-1095">really knowing what is odd.</span>&#187;
+ <!--l. 402--><p class="noindent" >Daria&#8217;s observation was interrupted when Mr.
+ O&#8217;Neill entered the classroom and closed the door.
+ His eyes went a little wide as he spotted her, but
+ that was the limit of his reaction. If he was
+ nervous all the time to begin with. Putting
+ his notes on the desk, he surveyed the class,
+ squinted at his seating plan, and made a note on
+ it.
+ <!--l. 409--><p class="noindent" >&#8220;Hello class, we have a new student in our English
+ course, Miss Darla Morgendotter.&#8221;
+ <!--l. 412--><p class="noindent" >&#8220;Daria. Delta-Alpha-Romeo-India-Alpha. Morgendorffer.
+ Mike-Oscar-Romeo-Golf-Echo-November-Delta-Romeo-double
+ Foxtrot-Echo-Romeo.&#8221;
+ <!--l. 414--><p class="noindent" >Mr. O&#8217;Neill squinted at his notes again. &#8220;Hm,
+ sorry, yes, Daria. Please take the empty seat over
+ there. Class, please make Daria feel welcome.&#8221;
+ <!--l. 417--><p class="noindent" >Daria made her way to the indicated seat in the
+ back at the classroom. The pattern to sit her in
+ the back in order for her not to obstruct the view
+ of any possible students behind her was obvious.
+ She hoped that her eyes would keep up with
+ it. Even with glasses her vision was less then
+ stellar.
+ <!--l. 423--><p class="noindent" >&#8220;And as she has missed the first two weeks of
+ classes, she would surely hugely appreciate if
+ someone could give her some pointers about the
+ ...&#8221;
+ <!--l. 425--><p class="noindent" >&#8220;&#8216;Tiny appreciation&#8217; simply seems impossible&#8221;
+ someone said and provoked a laughter from the
+ class and a groan from Daria.
+ <!--l. 428--><p class="noindent" >&#8220;No, what I mean is if someone would be
+ large-hearted enough to ...&#8221;
+ <!--l. 430--><p class="noindent" >&#8220;&#8216;Small hearted&#8217; won&#8217;t do either! No way!&#8221; More
+ laughter from the class.
+ <!--l. 433--><p class="noindent" >Daria wasn&#8217;t sure whether to laugh or cry. The
+ jokes were on her, but also on Mr. O&#8217;Neill
+ and not exactly mean. And that teacher was
+ just...
+ <!--l. 436--><p class="noindent" >&#8220;Class, I mean if someone could spend a tiny
+                                                                                      
+
+                                                                                      
+amount of...&#8221;
+<!--l. 438--><p class="noindent" >&#8220;I don&#8217;t think &#8216;tiny&#8217; is going to work!&#8221;
+<!--l. 440--><p class="noindent" >&#8220;Class. Quiet please, class. You all know what I&#8217;d
+like you to do.&#8221;
+<!--l. 442--><p class="noindent" >It took a while, but the class got calmed down.
+<!--l. 446--><p class="noindent" >&#8220;Well, then let&#8217;s start with the lecture. We&#8217;re
+currently looking at the poems of Shakespeare.
+Daria, to welcome you to the class I&#8217;d like you to
+read one of the great sonnets ...&#8221;
+<!--l. 448--><p class="noindent" >Suppressed giggles filled the room as Daria picked
+up her textbook and recited the poem that Mr.
+O&#8217;Neill assigned.
+<!--l. 451--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-26000"></a>*****</h4>
+<!--l. 453--><p class="noindent" >English turned out to be another class that Jane
+shared with Daria. She was briefed by Jodie about
+Mr. O&#8217;Neill&#8217;s quirks. Those two seemed to get
+along just fine. After the class started and
+Daria had again ended up in the back row,
+Jane was ready to sketch all the way through
+the class. The laughter at Mr. O&#8217;Neill&#8217;s size
+references - and Daria&#8217;s size - was amusing. Daria
+seemed to take it well. Jane had the distinct
+feeling that Daria had gotten quite a lot of
+teasing during her life. She stuck out, and the
+hammer usually hits the nail that sticks out
+most.
+<!--l. 462--><p class="noindent" >As Daria read the poem, Jane was again
+mesmerized by her voice. Yes, her reading was
+rather monotone, but she didn&#8217;t make a single
+mistake and brought the rhythm (what was the
+proper term for it again?) of the sonnet out the
+right way. Her voice had a soothing quality to
+Jane, but she did recall the incident in the locker
+room. Ouch.
+<!--l. 468--><p class="noindent" >Somehow, Daria&#8217;s voice did not match her
+body, but Jane could not tell why she felt that
+way.
+<!--l. 471--><p class="noindent" >                                            <h4 class="subsectionHead"><a 
+ id="x1-27000"></a>*****</h4>
+ <!--l. 473--><p class="noindent" >The self-esteem class was unremarkable. Daria
+ had been early again, but this time chose a seat in
+ the back row. After the second teacher asked her
+ to stay in the back in order to give the other
+ students an unobstructed view to the board, she
+ did so automatically. The &#8216;QB&#8217;, who wasn&#8217;t
+ exactly small and always wore his padding, was
+ seated in the front row in every class he shared
+ with Daria. If Mack was present, he was seated
+ right beside him. Obviously Mack and the
+ teacher were required to keep the Kevin in
+ line.
+ <!--l. 481--><p class="noindent" >Sitting in the back had its perks, as it gave her a
+ good view of her fellow students. It did not take
+ long to figure out who belonged into what clique.
+ At least the social structure of LHS did not differ
+ too much from her old school. That Lane girl
+ shared several classes with Daria, but went miles
+ to avoid her.
+ <br class="newline" />&#171;<span 
+class="ecti-1095">I wonder what is with her. I think I was</span>
+ <span 
+class="ecti-1095">quite friendly with my reply, must be her</span>
+ <span 
+class="ecti-1095">disappointment.</span>&#187;
+ <!--l. 489--><p class="noindent" >Interestingly, she did not belong to the jock group
+ as Daria initially suspected, but seemed to be one
+ of the outcasts that no group would have. Or that
+ would have no group. Her way of dressing fit that
+ way as well. Interestingly, the Coach had sent her
+ running laps quite early in PE. That had looked
+ pretty much like some extra time for track team
+ training.
+ <!--l. 495--><p class="noindent" >When Lane entered the self-esteem class, just before
+ the bell rang, Daria observed her systematically
+ looking for her - in order to chose a seat that
+ brought the biggest distance between the two
+ girls. Afterwards, Lane immediately immersed
+ herself into drawing.
+ <!--l. 500--><p class="noindent" >Sitting in the back of classes had also its
+ drawbacks. Besides Daria&#8217;s bad eyesight, that
+ made the board a little hard to read, there
+ were the &#8216;less interested&#8217; students that stuck to
+ the back of the classroom as well. And their
+ continuous chatter and antics irritated Daria a
+ little, but at least there were no brain dead idiots
+                                                                                      
+
+                                                                                      
+like Beavis and Butthead around. The goth
+with the fishnet glove had stuck in the back
+as well, and as she was silent during class -
+neither snoring nor chatter - Daria had seated
+herself next to her as often as possible. They
+hadn&#8217;t exchanged a single word and hardly a
+look, which suited Daria fine - and the goth as
+well.
+<!--l. 510--><p class="noindent" >The self-esteem class passed by Daria in a blur,
+and she only took sparse notes to be able to
+identify the used books later on. The school
+library was not likely to stock them, the local
+library neither, but with OPAC and remote
+borrowing that was not a real problem.
+<!--l. 515--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-28000"></a>*****</h4>
+<!--l. 517--><p class="noindent" >After school, the Fashion Club met up for an
+additional strategy meeting.
+<!--l. 519--><p class="noindent" >&#8220;So, Stacy, what can you report from your survey
+of the current gossip?&#8221;
+<!--l. 522--><p class="noindent" >&#8220;Well, the usual rumors revolving around
+who-dates-who and so on are currently just
+background noise. The two new girls are the main
+topic.&#8221;
+<!--l. 525--><p class="noindent" >&#8220;So, Stacy, would you like to elaborate. And
+please stick to our main problem. Quinn.&#8221;
+<br class="newline" />&#171;<span 
+class="ecti-1095">My main problem will be dealt with later.</span>&#187;
+<!--l. 531--><p class="noindent" >&#8220;It seems like we&#8217;re currently among the students
+best informed about Quinn. Our talk before
+school was about the longest she had with a single
+group all day. We witnessed her in class by
+ourselves, she&#8217;s ok, but not brainy.&#8221;
+<!--l. 533--><p class="noindent" >&#8220;Stacy, something new, please.&#8221;
+<!--l. 537--><p class="noindent" >&#8220;The talk among the guys is ambivalent; everybody
+is awed by her presence and consider her a
+major hottie. I quote: &#8216;I know what image
+will be on my mind this evening when I&#8217;m
+...&#8217;&#8221;
+<!--l. 539--><p class="noindent" >&#8220;STACY! EW!&#8221; &#8220;EWWWWWWWW! Thaaat&#8217;s
+grossssss!&#8221;
+<!--l. 542--><p class="noindent" >Despite the offensiveness of Stacy&#8217;s words,     Sandi did not dare to ignore the facts that they
+ conveyed.
+ <br class="newline" />&#171;<span 
+class="ecti-1095">That development was somehow to be expected.</span>
+ <span 
+class="ecti-1095">As long as this is only a temporary effect due to</span>
+ <span 
+class="ecti-1095">her novelty, it&#8217;s all right. Permanent however...</span>&#187;
+ <!--l. 547--><p class="noindent" >&#8220;Sorry, Sandi, but that was ...&#8221;
+ <!--l. 551--><p class="noindent" >&#8220;No member of the Fashion Club should say such
+ things. Even if it was verbatim. You better not
+ even think about such things. Do you need a
+ week&#8217;s worth of fashion sabbatical to sort your
+ thoughts out?&#8221;
+ <!--l. 553--><p class="noindent" >&#8220;No! NO! Sandi, I was just giving you an
+ accurate...&#8221;
+ <!--l. 556--><p class="noindent" >&#8220;Do so, but please bear the statutes of the
+ Fashion Club in mind while doing so. Go on.&#8221;
+ <!--l. 559--><p class="noindent" >&#8220;Well, the boys think she&#8217;s hot, but so hot that
+ she seems unapproachable.&#8221;
+ <!--l. 561--><p class="noindent" >&#8220;Exactly as I predicted!&#8221; Sandi said, smug.
+ <!--l. 567--><p class="noindent" >&#8220;There is another very important piece of
+ information that I got from Heather that overheard
+ Quinn talking to Jodie Landon. Quinn rebuffed
+ any participation in clubs and extracurricular
+ activities with reference to her part time job
+ as a model. Between that, homework and an
+ occasional date she just has no time.&#8221;
+ <!--l. 569--><p class="noindent" >This information had an impact on Sandi like a
+ Daisy Cutter. That girl did not only look like a
+ model, she <span 
+class="ecbx-1095">was </span>a model. That changed things
+ completely. Just observing and manipulating
+ every now and then would not be sufficient to
+ control her popularity. Every circle would be
+ falling over themselves to get her as a member.
+ That had the potential of serious trouble in the
+ long term. Sandi made an ad-hoc decision.
+ Quinn was unwilling to become a member of
+ any activity. But likely she would give in and
+ join a club to stop the whining. One club.
+ And that would be the Fashion Club. That
+ called for some serious scheming. She did not
+ expect any suitable help from Tiffany, and the
+ danger of Stacy being a leak outweighed her
+ usefulness.
+ <!--l. 583--><p class="noindent" >&#8220;This is an important development. Maybe she
+ will be able to provide us with some contacts.
+                                                                                      
+
+                                                                                      
+Even if she just models for the local copy shop,
+the photographers are usually well networked.
+Stacy, try to get any additional information on
+that topic. Anything else?&#8221;
+<!--l. 589--><p class="noindent" >&#8220;Yes Sandi, I&#8217;ll try to. What&#8217;s next? Ah, for the
+rumor of Quinn being, well, you know, as said by
+the girls that had been next to her in the PE
+locker room, this seems to be true. Her sister is,
+well, so too. And that has been verified by every
+sophomore girl that shares PE with Daria. Daria
+is said to be even, hmm, less self-conscious than
+Quinn.&#8221;
+<!--l. 591--><p class="noindent" >&#8220;I heaaaard you could see eeeveryyything.&#8221;
+<!--l. 594--><p class="noindent" >&#171;<span 
+class="ecti-1095">Everything, I&#8217;d really like to see... crap, that is</span>
+<span 
+class="ecti-1095">an image that I really don&#8217;t need in my head right</span>
+<span 
+class="ecti-1095">now. Get a grip, Alexandra!</span>&#187;
+<!--l. 597--><p class="noindent" >&#8220;That gave Daria an instant recognition among
+the girls who, well, do not like boys.&#8221;
+<!--l. 603--><p class="noindent" >&#8220;So Daria could be a lesbian, but at least she&#8217;s a
+slut. Maybe Quinn is too. But I doubt the two of
+them can exploit their lewdness with their
+repulsive bodies. We cannot entrust the Fashion
+Club&#8217;s popularity standing on the possibility of
+Quinn having cheerleader morals. We&#8217;ll have to
+have a close eye on her. Do I make myself
+clear?&#8221;
+<!--l. 605--><p class="noindent" >&#8220;Yes Sandi&#8221;
+<br class="newline" />&#8220;Yesss Sandiii&#8221;
+<!--l. 609--><p class="noindent" >&#8220;I think it would be wise to wait for Quinn
+tomorrow morning to trick her into talking
+to us, just as she did today. OK? Meeting
+adjourned.&#8221;
+<!--l. 13--><p class="noindent" >
+<h3 class="sectionHead"><a 
+ id="x1-29000"></a>*****</h3>
+<!--l. 15--><p class="noindent" >The smell reached Daria as soon as she opened
+the door to her home. Her father had kept his
+promise and had taken care of the dinner by
+conducting some chemical experiment with the
+intent of creating some stew. Daria announced
+herself and got an answer from her father. Her
+mother waved at her from the living room, whereshe had spread several files on the table and was
+ busy talking on her cell phone. Quinn was not
+ to be seen. Daria went into the kitchen, and
+ immediately started to set the table, as it wasn&#8217;t
+ prepared.
+ <!--l. 24--><p class="noindent" >&#8220;Hey kiddo, good you&#8217;re back! I made some stew.
+ How&#8217;s that self-esteem coming?&#8221;
+ <!--l. 26--><p class="noindent" >&#171;<span 
+class="ecti-1095">Kiddo my ass.</span>&#187;
+ <br class="newline" />&#8220;Brilliant. I got mistaken for a guy six times
+ today. That does wonders for one&#8217;s self-esteem.
+ You owe me a twenty.&#8221;
+ <!--l. 30--><p class="noindent" >Daria picked up Jake&#8217;s wallet from the sideboard,
+ presented it to him, and at his nod removed two
+ ten dollar bills in his sight, which she pocketed.
+ <!--l. 34--><p class="noindent" >&#171;<span 
+class="ecti-1095">Ah, kiddo, that sucks. People just don&#8217;t see what</span>
+ <span 
+class="ecti-1095">a sweet little girl you are.</span>&#187;
+ <br class="newline" />&#8220;That&#8217;s not nice, but you haven&#8217;t run into any
+ real trouble so far, have you, Daria?&#8221;
+ <!--l. 40--><p class="noindent" >&#8220;No. Actually, it&#8217;s better than I expected. Having
+ Quinn around distributes all the attention
+ between the two of us. I just don&#8217;t know how she
+ can like it.&#8221;
+ <br class="newline" />&#171;<span 
+class="ecti-1095">And the head cheerleader seems to see me as a</span>
+ <span 
+class="ecti-1095">threat in regard to her bozo boyfriend. No matter</span>
+ <span 
+class="ecti-1095">how stupid that is, it delights me in a wicked</span>
+ <span 
+class="ecti-1095">way.</span>&#187;
+ <!--l. 45--><p class="noindent" >&#8220;She is just the way she is. She can&#8217;t have enough
+ attention. Here, try the stew! I tried an old secret
+ recipe from military school!&#8221;
+ <!--l. 48--><p class="noindent" >&#8220;If she takes my share, I&#8217;ll do her chores for a
+ week. A month. The stew is ok dad, stay clear of
+ any additional spices.&#8221;
+ <!--l. 50--><p class="noindent" >Daria immediately made contingency plans:
+ Distract Jake, insert potatoes, let them simmer a
+ bit, extract potatoes before Jake notices, hope for
+ the best, and serve.
+ <!--l. 55--><p class="noindent" >&#8220;Dad, you&#8217;ve already cooked. I&#8217;ll take over, you go
+ and get mom and Quinn.&#8221;
+ <!--l. 57--><p class="noindent" >&#8220;Thanks! I&#8217;m on my way!&#8221;
+ <!--l. 59--><p class="noindent" >&#171;<span 
+class="ecti-1095">Now I have to hurry...</span>&#187;
+ <!--l. 61--><p class="noindent" >
+                                                                                      
+
+                                                                                      
+<h4 class="subsectionHead"><a 
+ id="x1-30000"></a>*****</h4>
+<!--l. 63--><p class="noindent" >Twenty minutes later the Morgendorffer family
+was rounded up at the table, and the stew was
+served.
+<!--l. 66--><p class="noindent" >&#8220;Enjoy your meal! It&#8217;s stew ala Jake!&#8221;
+<!--l. 68--><p class="noindent" >Helen and Quinn held back a little until Jake and
+Daria swallowed the first spoon of the concoction,
+and after seeing no adverse reaction started eating
+by themselves.
+<!--l. 73--><p class="noindent" >&#8220;It&#8217;s good, Jakey. Hot, but not too hot, one can
+still taste the ingredients.&#8221;
+<!--l. 75--><p class="noindent" >&#8220;Well, then &#8216;kiss the cook&#8217;!&#8221; Jake said and
+presented his cheek to his wife.
+<!--l. 78--><p class="noindent" >Quinn looked at Daria who rolled her eyes as her
+father got what he wanted. Quinn had the inkling
+that Daria had somehow intervened to ensure
+the edibility of their dinner. The kitchen was
+Daria&#8217;s realm, even if Jake and Helen thought
+otherwise.
+<br class="newline" />&#171;<span 
+class="ecti-1095">God, I hope those two will not get any funny</span>
+<span 
+class="ecti-1095">ideas tonight.</span>&#187;
+<!--l. 84--><p class="noindent" >&#8220;Tell a little about your day, Quinn.&#8221; Helen was
+not wasting her time by just eating.
+<!--l. 89--><p class="noindent" >&#8220;Well, I met these three girls that are the Fashion
+Club, and they really know how to dress nicely,
+but it&#8217;s much easier for them as stores just
+carry their sizes. And they asked me to join the
+pep-squad, but ...&#8221;
+<!--l. 91--><p class="noindent" >Jake dug into his stew, which was for some reason
+rather bland, and listened to his little girl tell
+about her school day.
+<!--l. 94--><p class="noindent" >Daria listened as well, and was amazed at the ease
+with which Quinn settled in at high school.
+<br class="newline" />&#171;<span 
+class="ecti-1095">Well, being asked about your size offers an</span>
+<span 
+class="ecti-1095">invitation for a conversation, but really loses its</span>
+<span 
+class="ecti-1095">appeal after the fifteenth time. And not being</span>
+<span 
+class="ecti-1095">asked out by any boys on your first day is not a</span>
+<span 
+class="ecti-1095">natural disaster, Queen Quinn.</span>&#187;
+<br class="newline" />&#171;<span 
+class="ecti-1095">They may need some time to find the courage to</span>
+<span 
+class="ecti-1095">approach you - outside of their imagination. And</span>
+<span 
+class="ecti-1095">that you are not completely up-to-date in your</span>
+<span 
+class="ecti-1095">classes is to be expected after missing the first two</span>
+<span 
+class="ecti-1095">weeks. If you keep up that studying you did</span>
+<span 
+class="ecti-1095">yesterday, you&#8217;ll be on track by the start of next</span> <span 
+class="ecti-1095">week. At least you don&#8217;t have that bozo Kevin in</span>
+ <span 
+class="ecti-1095">your class. If he is as stupid as he seems, he</span>
+ <span 
+class="ecti-1095">shouldn&#8217;t be able to tell the teams apart on the</span>
+ <span 
+class="ecti-1095">field.</span>&#187;
+ <!--l. 107--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-31000"></a>*****</h4>
+ <!--l. 108--><p class="noindent" ><a 
+ id="txt_rel13"></a>
+ <!--l. 110--><p class="noindent" >Jane sat at the kitchen table in the same spot as
+ the day before. She wore the same expression on
+ her face as the day before. As Trent arrived in the
+ kitchen and saw her, he knew that she was still
+ troubled. He had just wanted to pick up a soft
+ drink and head back to the basement to continue
+ to practice the Open-D tuning on his acoustic,
+ but that could wait. Trent sat down across from
+ Jane, as the day before.
+ <!--l. 117--><p class="noindent" >He opened his soda can and prepared for some
+ time in silence before he would try to talk to
+ Jane, but Jane started the conversation by
+ herself.
+ <!--l. 120--><p class="noindent" >&#8220;My laziness really bit me in the ass today.&#8221;
+ <!--l. 122--><p class="noindent" >Trent offered her his soda, which she accepted.
+ While he got himself another can, Jane continued.
+ <!--l. 126--><p class="noindent" >&#8220;I wanted to prepare myself to face her again. In
+ self-esteem class. I would have had time all day.
+ To sort out what is going on.&#8221;
+ <!--l. 128--><p class="noindent" >Jane took a sip from the can and went on.
+ <!--l. 133--><p class="noindent" >&#8220;<span 
+class="ecbx-1095">Brrr </span>This store brand stuff does not really
+ replace Ultra Cola. Neither in caffeine nor in
+ sugar nor in taste. Well. It didn&#8217;t work. She&#8217;s a
+ sophomore. We share classes. I walked into Mr
+ D&#8217;s class, and there she was. My brain shut
+ down.&#8221;
+ <!--l. 135--><p class="noindent" >&#8220;And Mr D caught you sketching.&#8221; Trent grinned
+ a little at the memory of Mr D chewing him out
+ for nodding off in class.
+ <!--l. 139--><p class="noindent" >&#8220;No. No, he didn&#8217;t. He was busy trying to show
+ her up for some reason. Didn&#8217;t work though.&#8221;
+ <!--l. 141--><p class="noindent" >&#8220;Did Mr D have a bad day?&#8221;
+ <!--l. 144--><p class="noindent" >&#8220;No, but she&#8217;s a smart kid. Very smart. I think
+ they negotiated a ceasefire someway through
+                                                                                      
+
+                                                                                      
+class.&#8221;
+<!--l. 146--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-32000"></a>*****</h4>
+<!--l. 148--><p class="noindent" >Helen encouraged Quinn to keep going by asking
+a question every now and then, but even Quinn
+ran out of news after a while. So Helen shifted her
+focus to her other daughter.
+<!--l. 152--><p class="noindent" >&#8220;How about your day, Daria?&#8221;
+<!--l. 159--><p class="noindent" >&#8220;Some weird girl hit on me before I even reached
+school grounds. My history teacher either hates
+me or just wanted to test me. &#8216;The QB&#8217; asked
+me to try out for the football team. I nearly
+got kicked out of the girls&#8217; locker room before
+PE. I&#8217;m afraid I have an admirer, ah, make
+that an admireress. I hope she gets &#8216;NO!&#8217; and
+isn&#8217;t the persistent type. I really hate that
+situation.&#8221;
+<!--l. 161--><p class="noindent" >Compassion and weariness filled Helen&#8217;s soul. Did
+Daria manage to get into trouble on her first real
+day at the new school?
+<br class="newline" />&#171;<span 
+class="ecti-1095">Daria, why can&#8217;t you be a little more like me and</span>
+<span 
+class="ecti-1095">understand it as a second option?</span>&#187;
+<br class="newline" />&#8220;What happened in PE?&#8221;
+<!--l. 169--><p class="noindent" >&#8220;Some girls hadn&#8217;t seen me before and mistook
+me for a guy. The coach calmed things down. I
+think most of them had to see the complete
+evidence before they felt safe.&#8221;
+<!--l. 171--><p class="noindent" >&#8220;Any problems in your PE class, Quinn?&#8221; Helen
+shifted her focus on her other daughter.
+<!--l. 176--><p class="noindent" >&#8220;I&#8217;m not any good at it, but you know that. And
+getting sweaty is just gross. But to answer your
+question: Some of the girls were surprised, but no
+Miss goody-two-shoes started to call me names or
+something.&#8221;
+<!--l. 178--><p class="noindent" >&#8220;Ah, girls, those stuck-up kids just don&#8217;t know
+what is good.&#8221; Jake chimed in.
+<!--l. 181--><p class="noindent" >&#171;<span 
+class="ecti-1095">Jake, I agree with you on the advantages, but</span>
+<span 
+class="ecti-1095">they are your daughters.</span>&#187;
+<br class="newline" />&#8220;Daria?&#8221;
+<!--l. 186--><p class="noindent" >&#8220;I think nobody really noticed - they were busy
+looking at the rest of me. And if: I&#8217;m a freak   anyway.&#8221;
+ <!--l. 189--><p class="noindent" >&#8220;Should they start giving you trouble, tell them
+ the truth. If they won&#8217;t stop...&#8221; Helen did not
+ have to spell the &#8220;or else&#8221; out.
+ <!--l. 192--><p class="noindent" >&#8220;The other girls are going to be so jealous
+ that we never have to shave our legs...&#8221; Quinn
+ smirked. Daria decided to divert from the current
+ topic.
+ <!--l. 197--><p class="noindent" >&#8220;I asked the PE coach about the school&#8217;s gym
+ today. There are two-hour &#8216;girls only&#8217; slots on
+ Tuesday and Thursday after school. I&#8217;m going to
+ attend this Thursday after that self-esteem class,
+ if that&#8217;s alright with you, mom, dad?&#8221;
+ <br class="newline" />&#171;<span 
+class="ecti-1095">And...</span>&#187;
+ <!--l. 200--><p class="noindent" >&#171;<span 
+class="ecti-1095">Daria, you sneaky...</span>&#187;
+ <!--l. 203--><p class="noindent" >&#8220;Of course Daria. And Quinn will accompany you.
+ She needs to keep up with her physiotherapy
+ exercises. A &#8216;girls only&#8217; class is perfect for that.&#8221;
+ <!--l. 205--><p class="noindent" >&#171;<span 
+class="ecti-1095">...you&#8217;re coming with me, Miss Sloth.</span>&#187;
+ <!--l. 208--><p class="noindent" >&#8220;Mo-om! I&#8217;ll get all sweaty! And look like a jock!
+ You can&#8217;t do that to me!&#8221;
+ <!--l. 211--><p class="noindent" >&#8220;You will go. And Daria, you will make sure that
+ she does her exercises properly!&#8221;
+ <!--l. 213--><p class="noindent" >&#8220;Yes, mom.&#8221;
+ <br class="newline" />It was Daria&#8217;s turn to smirk.
+ <!--l. 216--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-33000"></a>*****</h4>
+ <!--l. 218--><p class="noindent" >Jane took another sip from her soda.
+ <!--l. 223--><p class="noindent" >&#8220;PE was ... strange. When she came into the
+ locker room, some girls that hadn&#8217;t seen her
+ before mistook her for a guy and made a ruckus.
+ Coach Morris came in and calmed them down.
+ After changing there was no more doubt she&#8217;s a
+ girl. The shower after PE really got to me.&#8221;
+ <!--l. 225--><p class="noindent" >&#8220;Hmm?&#8221;
+ <!--l. 229--><p class="noindent" >&#8220;She doesn&#8217;t hide herself. I got a realllly good
+ glance at her ... and I really liked what I saw.
+ She&#8217;s all hard but soft at the same time. Nice and
+ smooth movements. God, this is so disturbing.&#8221;
+ <!--l. 231--><p class="noindent" >&#8220;So you like a girl.&#8221; Trent said and shrugged.
+ <!--l. 235--><p class="noindent" >&#8220;No. That&#8217;s not the point, Trent. I like that body.
+                                                                                      
+
+                                                                                      
+And that&#8217;s ok. But I&#8217;m not sure if I like it because
+it belongs to a girl or in spite of it belonging to a
+girl. Damn.&#8221;
+<!--l. 237--><p class="noindent" >&#8220;Does it matter?&#8221;
+<!--l. 239--><p class="noindent" >&#8220;Yes! To me it matters!&#8221;
+<!--l. 241--><p class="noindent" >&#171;<span 
+class="ecti-1095">Ooooook....time for a little diversion.</span>&#187;
+<br class="newline" />&#8220;And what do the other girls think?&#8221;
+<!--l. 246--><p class="noindent" >&#8220;How should I know Trent!? Am I a mind reader?!
+Ah, sorry, I&#8217;m ... She&#8217;s intimidating. Her physique,
+I mean. Strong and agile, but totally sucks at
+gymnastics.&#8221;
+<br class="newline" />Jane laughed a little and fished her sketchbook
+from her backpack.
+<br class="newline" />&#8220;So much like a guy. Look at these sketches.&#8221;
+<!--l. 250--><p class="noindent" >To Trent said sketches initially looked the same as
+the ones yesterday. But on the second glance he
+noted a slight difference in proportions. The greek
+athlete was now a female. And wore glasses,
+giving the picture a surreal feeling.
+<!--l. 257--><p class="noindent" >&#8220;Those should be pretty accurate. I had a good
+look at the original in its natural state. Her
+jacket conceals a lot when you look at her from
+behind.&#8221;
+<!--l. 259--><p class="noindent" >Trent was tempted to ask Jane about the
+accuracy of those sketches. But implying that
+Jane took artistic liberties when she claimed
+she hadn&#8217;t was bad practice, so he remained
+silent.
+<!--l. 263--><p class="noindent" >&#8220;I wonder if I can get her to model for me...&#8221;
+<!--l. 265--><p class="noindent" >&#8220;That would require asking her. You didn&#8217;t talk
+to her all day?&#8221;
+<!--l. 267--><p class="noindent" >Trent meant it more as a statement than a
+question. He knew his little sister.
+<!--l. 269--><p class="noindent" >&#8220;No! No way! I don&#8217;t have the nerve to talk to
+her!&#8221;
+<br class="newline" />Jane got agitated.
+<!--l. 272--><p class="noindent" >&#8220;What&#8217;s so difficult, Janey?&#8221;
+<!--l. 274--><p class="noindent" >&#8220;I mistook her for a guy. And I want her body!&#8221;
+<!--l. 276--><p class="noindent" >Trent grinned widely. That was very honest. And
+most likely unintentional.
+<!--l. 278--><p class="noindent" >&#8220;What now, Trent?!?&#8221;
+<!--l. 280--><p class="noindent" >&#8220;If I had ever said that....&#8221;
+<!--l. 282--><p class="noindent" >After two seconds, the color of Jane&#8217;s face
+approached the hue of her jacket. His sister was embarrassed, on at least two accounts. Trent
+ didn&#8217;t press on, but had an idea how to help her a
+ little - in the long run.
+ <!--l. 286--><p class="noindent" >&#8220;Janey, how would you feel if some girl mistook
+ you for a guy?&#8221;
+ <!--l. 288--><p class="noindent" >&#8220;I ... that must suck. Crap.&#8221;
+ <!--l. 290--><p class="noindent" >&#8220;Maybe an apology would make you feel better
+ about this as well.&#8221;
+ <!--l. 292--><p class="noindent" >As Jane didn&#8217;t answer he knew she had some
+ thinking to do. He picked up his soda and headed
+ for the basement. Trent could nearly touch the
+ blues Jane emitted. Blues. Open-D tuning. Hmm.
+ Maybe he could get a good song out of this
+ situation.
+ <!--l. 297--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-34000"></a>*****</h4>
+ <!--l. 299--><p class="noindent" >Later that evening Daria went downstairs to make
+ a call. The internal phone wiring was still faulty,
+ so the phone in her room didn&#8217;t work. Not that
+ she would need it as often as Quinn already did
+ hers.
+ <!--l. 303--><p class="noindent" >&#8220;I&#8217;m calling about my training classes.&#8221; Daria
+ announced to her parents as she picked up the
+ phone. She read the number from a Post-It and
+ keyed it in. After the fourth ring, somebody
+ picked up.
+ <!--l. 307--><p class="noindent" >&#8220;Reynolds speaking.&#8221; was about the answer Daria
+ was expecting.
+ <!--l. 310--><p class="noindent" >&#8220;Hello Mr Reynolds, my name is Daria Morgendorffer,
+ we just moved in from Highland,Texas, and...&#8221;
+ <!--l. 312--><p class="noindent" >&#8220;So you&#8217;re Tiny.&#8221;
+ <!--l. 314--><p class="noindent" >Daria heard the smile in the man&#8217;s voice and
+ couldn&#8217;t help but smile herself. She could still
+ remember how she had gotten that nickname
+ during her first training. She was a short, fragile
+ kid back then, when Helen had made the girls
+ attend those classes with her. Quinn was already
+ taller, and that didn&#8217;t sit too well with Daria. She
+ hated being mocked and called names at school
+ because of her size.
+ <!--l. 321--><p class="noindent" >But when the 6&#8217;something 190+pound ex-marine
+                                                                                      
+
+                                                                                      
+teaching those classes named her Tiny, he did so
+for a very good reason and with no ill intent:
+compared to him she simply was, and of course
+she was the smallest participant to begin with.
+That nickname stuck, even as she grew, and she
+had come to like it for the memories that were
+attached to it. Memories of her being a much
+more normal kid that could just blend in if she
+had to. She wasn&#8217;t sure if those times had been
+happier, but they hadn&#8217;t been as bad as as they
+seemed then.
+<!--l. 329--><p class="noindent" >&#8220;Yeah, that would be me.&#8221;
+<!--l. 332--><p class="noindent" >&#8220;Buzzcut told me to expect your call. He was
+right on that one. You&#8217;d like to join the classes, I
+suppose?&#8221;
+<!--l. 335--><p class="noindent" >&#8220;Yes, I got used to them. It is really a pity that
+I&#8217;ll have to commute to Oakwood, you&#8217;re sure
+there are no classes at Lawndale?&#8221;
+<!--l. 337--><p class="noindent" >&#8220;Sorry, really not. Is this going to be a problem?&#8221;
+<!--l. 339--><p class="noindent" >&#8220;I&#8217;ll have to work something out with my
+parents.&#8221;
+<!--l. 341--><p class="noindent" >&#8220;Maybe you can carpool with somebody from
+your area.&#8221;
+<!--l. 343--><p class="noindent" >&#8220;Sounds like a good idea. When and where are the
+classes?&#8221;
+<!--l. 347--><p class="noindent" >&#8220;We currently meet four times a week. Monday,
+Thursday, Friday and Sunday at 7pm, usually &#8217;til
+10. Many people have other things to do on
+Friday evening, so it&#8217;s mostly the &#8216;enthusiasts&#8217; on
+that day.&#8221;
+<!--l. 349--><p class="noindent" >&#8220;Hmm, Thursday is a little short term. Where do
+you meet on Friday?&#8221;
+<!--l. 353--><p class="noindent" >&#8220;The parking lot of the Tellerman office complex
+on the side of the highway to Middleton. One of
+the security crew is a student as well. We&#8217;re in the
+city green Sunday and Monday after.&#8221;
+<!--l. 356--><p class="noindent" >&#8220;Parking lot. Ouch. But I think I can make that.
+See you on Friday, Mr Reynolds.&#8221;
+<!--l. 359--><p class="noindent" >&#8220;No pain no gain...See you, Tiny. And I&#8217;m really
+curious how much of the description Buzzcut gave
+me was part of his imagination...&#8221;
+<!--l. 361--><p class="noindent" >&#8220;Well, you&#8217;ll see for yourself. Bye!&#8221;
+<!--l. 363--><p class="noindent" >&#8220;Bye!&#8221;
+<!--l. 365--><p class="noindent" >Daria jotted time and location on the Post-It thatdid hold the phone number. Getting a ride this
+ Friday was doable. A regular ride would be
+ difficult. She would have to put some serious
+ thought in the carpool idea. Buzzcut had been
+ right. She had the feeling she would fit in this
+ group as well.
+ <!--l. 370--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-35000"></a>*****</h4>
+ <!--l. 372--><p class="noindent" >As Daria passed Quinn&#8217;s room, her sister opened
+ her door and called for her.
+ <!--l. 374--><p class="noindent" >&#8220;Ah, Daria, it&#8217;s you. Could you give me some
+ hints for my reading?&#8221;
+ <!--l. 376--><p class="noindent" >After dinner and watching a little TV downstairs
+ Quinn had retreated into her room to work
+ on the books on her reading list, which was
+ the most time consuming aspect of changing
+ schools.
+ <br class="newline" />&#171;<span 
+class="ecti-1095">If you haven&#8217;t read those books on your own,</span>
+ <span 
+class="ecti-1095">anyway.</span>&#187;
+ <!--l. 381--><p class="noindent" >Daria turned and followed Quinn into her room.
+ Daria wondered if permanent exposure to those
+ colors could cause ocular cancer.
+ <!--l. 384--><p class="noindent" >&#8220;So...?&#8221;
+ <!--l. 386--><p class="noindent" >&#8220;I finished another one of those Shakespeare
+ thingies. It&#8217;s...&#8221;
+ <!--l. 388--><p class="noindent" >Quinn held up her school issued copy of
+ &#8216;Shakespeare, selected pieces&#8217; and sat down again
+ at her desk, facing Daria. Getting extra high
+ desks and chairs had been a real pain, but
+ was a necessity. For a while Daria had to use
+ bricks under her desk&#8217;s legs to heighten its
+ top.
+ <!--l. 394--><p class="noindent" >&#8220;... well, I understand this weird language now, I
+ get what is going on, but...&#8221;
+ <!--l. 396--><p class="noindent" >&#171;<span 
+class="ecti-1095">If that is true, our last sessions paid out.</span>
+ <span 
+class="ecti-1095">Good.</span>&#187;
+ <br class="newline" />&#8220;That&#8217;s nice, but what&#8217;s more?&#8221;
+ <!--l. 404--><p class="noindent" >&#8220;I keep forgetting things. It does not fit in my
+ head anymore. That was about the fiftieth
+ boring drama with boring people and weirdo
+ language that I&#8217;ve read and it&#8217;s, like, all the
+                                                                                      
+
+                                                                                      
+same in my mind! One large blot of pointless
+mumbo-jumbo! Even that stupid guy ran out of
+titles and just numbered the junk. Doesn&#8217;t he
+know that one starts with one - and not with two
+or four?&#8221;
+<br class="newline" />The frustration was palpable in Quinn&#8217;s voice.
+<!--l. 407--><p class="noindent" >Inwardly Daria smiled. Quinn was paying the
+price for an easy summer. Betting on cramming
+was a bad choice, but Quinn had made it. Now
+she had to deal with the consequences.
+<br class="newline" />&#8220;And you want my help to forget the &#8216;mumbo-jumbo&#8217;?
+Sorry, I don&#8217;t do brain surgery.&#8221;
+<!--l. 413--><p class="noindent" >&#8220;Haha, Daria. I need to know that junk.&#8221;
+<!--l. 415--><p class="noindent" >&#8220;I don&#8217;t implant knowledge either.&#8221;
+<!--l. 417--><p class="noindent" >&#8220;But you must help me!&#8221;
+<!--l. 420--><p class="noindent" >&#8220;No, I cannot remember things for you. That&#8217;s
+something you&#8217;ve got to do on your own.&#8221;
+<!--l. 423--><p class="noindent" >&#8220;Daria, I just can&#8217;t. Help me here. Please. If I
+come home with a &#8216;D&#8217; essay mom&#8217;s going to be so
+pissed off. You don&#8217;t want that either.&#8221;
+<!--l. 425--><p class="noindent" >&#8220;You&#8217;ve got a point there.&#8221;
+<br class="newline" />Daria contemplated how to help Quinn. To skip
+out of helping her was not an option; one word to
+their mother, and Helen would raise hell. Daria&#8217;s
+eyes were on Quinn, but out of focus while she
+was lost in thought.
+<!--l. 430--><p class="noindent" >&#8220;Soo...&#8221; Quinn asked, and watched Daria return
+from orbit.
+<!--l. 432--><p class="noindent" >&#8220;OK. I&#8217;ll help you. Let me have a look at your
+notes.&#8221;
+<!--l. 434--><p class="noindent" >&#8220;Notes?&#8221;
+<!--l. 436--><p class="noindent" >Daria did not the like the surprised look on
+Quinn&#8217;s face.
+<br class="newline" />&#8220;The notes on the stories you&#8217;ve read.&#8221;
+<!--l. 439--><p class="noindent" >&#8220;I&#8217;ve read them. I didn&#8217;t take any notes.&#8221;
+<br class="newline" />Quinn started to realize her mistake.
+<!--l. 442--><p class="noindent" >Daria just shook her head. &#171;<span 
+class="ecti-1095">Talk about</span>
+<span 
+class="ecti-1095">unorganized.</span>&#187;
+<br class="newline" />&#8220;Quinn, that&#8217;s...&#8221;
+<!--l. 446--><p class="noindent" >&#8220;Hey, I&#8217;m supposed to read the books on the
+reading list! That&#8217;s what I&#8217;m doing!&#8221;
+<!--l. 450--><p class="noindent" >&#8220;True. But being on the <span 
+class="ecbx-1095">reading </span>list does not
+ban taking notes on the texts. And if you keep
+forgetting things, you obviously should have takennotes.&#8221;
+ <!--l. 452--><p class="noindent" >Quinn was a little bit embarrassed and felt stupid.
+ The thought to take notes while reading had not
+ once crossed her mind. She had been proud that
+ she was forcing herself to do the reading, but her
+ brainy big sister immediately had put her back in
+ her place.
+ <br class="newline" />&#8220;So, what now?&#8221;
+ <!--l. 458--><p class="noindent" >&#8220;You look at the texts again, and take some notes.
+ Then we can talk.&#8221;
+ <!--l. 460--><p class="noindent" >&#8220;I&#8217;m not reading that junk <span 
+class="ecbx-1095">again</span>.&#8221;
+ <!--l. 463--><p class="noindent" >&#8220;You don&#8217;t have to. Quickly browsing through
+ them should be enough to recall the main points.&#8221;
+ <!--l. 465--><p class="noindent" >Quinn looked unhappily at her issue of &#8216;Shakespeare,
+ selected pieces&#8217; and came up with another way
+ to end this quick. She put on her pleading
+ face.
+ <br class="newline" />&#8220;Would you give me your notes?&#8221;
+ <!--l. 470--><p class="noindent" >&#171;<span 
+class="ecti-1095">Have you ever considered that the HHS freshman</span>
+ <span 
+class="ecti-1095">reading list may differ from the LHS list?</span>&#187;
+ <br class="newline" />&#8220;No. And that is solely because only taking your
+ own notes will really help you remember.&#8221;
+ <!--l. 474--><p class="noindent" >Daria had put her arms akimbo during that
+ sentence, and this told Quinn that the last word
+ on that matter had been spoken. Likely she was
+ right. Unhappy, she put the book back on the
+ desk and mourned the hours she would waste
+ taking her own notes. But then Daria would help
+ her. She got up from her chair and faced her
+ sister.
+ <br class="newline" />
+ <!--l. 480--><p class="noindent" >&#8220;I don&#8217;t like that, but you&#8217;re probably right.
+ Thank you Daria.&#8221;
+ <!--l. 482--><p class="noindent" >Quinn stepped over to her sister and hugged
+ her. Quinn could use a hug, her first whole
+ day at high school was a bigger strain than
+ she had let on. High school was even more
+ of a war zone than middle school had been.
+ Getting out of there unscathed would be much
+ more difficult to her than to her self-reliant
+ sister. Most things just ricocheted off of her
+ armor.
+ <!--l. 488--><p class="noindent" >Daria was a little surprised, but returned the hug
+ willingly. She liked being hugged, because it made
+                                                                                      
+
+                                                                                      
+her feel so trustworthy. But her experience
+thaught her never to initiate a hug on her own.
+That made some people uncomfortable - for
+obvious reasons. As nice as being hugged by
+Quinn was, it always brought up some bad
+thoughts. She had stopped in her growth, but
+Quinn was taller. Again. She could never be a
+proper &#8216;big sister&#8217; to Quinn. And holding her
+sister&#8217;s delicate body always remembered her of
+her own messed up figure. Quinn was tall, but had
+all the right curves of a woman. Long firm legs, a
+creamy white complexion with just the right
+amount of freckles that were a natural red
+head&#8217;s trademark. Quinn was so soft. Her looks
+provided Quinn with a lot of attention, but she
+just basked in it. Daria would not be really
+comfortable with it, but at least it was good
+attention. At least compared to what she herself
+got.
+<!--l. 502--><p class="noindent" >As Daria returned the hug heartily, Quinn felt
+immediately better. Daria&#8217;s arms around her
+made her feel so protected. Strong, but loving.
+Daria may be a little smaller than her, but
+outweighed her by about twenty-five pounds and
+thus was her BIG sister. She always had been.
+Quinn remembered the one time when she had
+thrown a fit about a year ago and tried to
+lunge at Daria. She had felt like a rag doll
+during the eyeblink that it took Daria to pin
+her on the floor. Luckily Daria was not angry
+at her and just waited until she had calmed
+down.
+<!--l. 511--><p class="noindent" >&#8220;It&#8217;s all right Quinn, you&#8217;ll catch up soon.&#8221;
+<!--l. 513--><p class="noindent" >Daria ended the hug, and Quinn took a step away
+from her.
+<!--l. 515--><p class="noindent" >&#8220;I hope so, I don&#8217;t like all that additional
+studying.&#8221;
+<!--l. 517--><p class="noindent" >Quinn took another look at her sister in her
+orange shirt and jeans. Daria was strong in mind
+and body, which Quinn was not. The people
+admired Quinn as they would admire a piece of
+artwork, but people respected Daria. On first
+sight for her physique, but soon after for her
+mind. That respect was worth so much more thanall the shallow attention she got.
+ <!--l. 523--><p class="noindent" >&#8220;Anything else? I need to finish some things
+ before I go to sleep.&#8221;
+ <!--l. 525--><p class="noindent" >&#8220;No, that&#8217;s all. Thank you again.&#8221;
+ <!--l. 527--><p class="noindent" >&#8220;No problem. Later.&#8221;
+ <!--l. 529--><p class="noindent" >Daria left Quinn&#8217;s room to return to her own,
+ and Quinn sat down at her desk again. Her
+ view fell on the dreadful book again, but her
+ mind was not set to contemplate the works of
+ Shakespeare. Her future at LHS seemed to loom
+ over her.
+ <!--l. 534--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-36000"></a>*****</h4>
+ <!--l. 536--><p class="noindent" >Daria returned to her room in a better mood than
+ before. Seeing Quinn interested in more useful
+ things than fashion gave her hope that her sister
+ would not turn out as a living display dummy.
+ Her mother&#8217;s move to tie Quinn&#8217;s modelling jobs
+ and classes to her academic standing obviously
+ provided a strong motivation. The hug she got out
+ of it was a nice bonus. Quinn felt for some reason
+ unknown to Daria safe around her, but Daria
+ would not complain.
+ <!--l. 543--><p class="noindent" >Daria closed her door, and &#8216;accidentally&#8217; knocked
+ her backpack over in such a manner that any
+ attempt to open the door would hit it and cause
+ enough noise to make her notice. Daria grabbed
+ her diary from its obvious hiding spot behind
+ some other books in her shelf and started to write
+ the entries for the day before and the present
+ day.
+ <!--l. 549--><p class="noindent" >New school with a power mad principal, visit at
+ the shrink who did not like her question about
+ the last shooting rampage at that institution.
+ Being sentenced to a freak class with a teacher
+ who seems to be permanently on drugs. Being
+ propositioned by two total hotties (for, but of
+ wrong, sex) and one total dumbass (for football).
+ A beer on Monday evening, unpacking her stuff.
+ The history teacher with the pneumatic eye. The
+ shouting match in the locker room. The girl
+                                                                                      
+
+                                                                                      
+who lost her Ben Wa balls in the shower after
+P.E. Having talked about the local venues to
+hold black celebrations with that girl during
+lunch. Her dad&#8217;s failed attempt at stew. A
+shot of H for dessert. A little bonding with
+Quinn.
+<!--l. 560--><p class="noindent" >Daria powered her computer up, and while the
+machine booted, she stored the diary in its new
+old spot that no snoop would miss. The bait was
+laid out again. She then logged onto the machine,
+extracted her personal data from the family video
+(last Christmas, courtesy of Jake) it was hidden
+in, decrypted it and opened her journal. After
+finishing the two missing entries, encryption
+and re-embedding the data into the video she
+lamented the missing internet connectivity due to
+the defect internal cable and phone lines. She had
+to make sure that they would be fixed ASAP, or
+some work around like a wireless connection was
+installed. She&#8217;d have to talk to her dad about
+that.
+<!--l. 570--><p class="noindent" >
+<h4 class="subsectionHead"><a 
+ id="x1-37000"></a>*****</h4>
+<!--l. 572--><p class="noindent" >Her father told her that he wanted to look into
+the cable problem by himself before calling an
+expert.
+<!--l. 576--><p class="noindent" >&#8220;Maybe it&#8217;s just a loose connection we can fix
+ourselves and save some money.&#8221;
+<!--l. 578--><p class="noindent" >He was going to be too busy during the week
+and thus planning the investigation for the
+weekend. Daria decided to wait until then and she
+would make sure to assist her father. In other
+words: monitor him, to ensure that he would
+connect neither the phones nor himself to the
+mains.
+<!--l. 583--><p class="noindent" >&#8220;Could you give me a ride to Oakwood on Friday
+evening, dad?&#8221;
+<!--l. 585--><p class="noindent" >&#8220;Friday? To Oakwood? Why?&#8221;
+<!--l. 587--><p class="noindent" >Jake was suddenly very interested.
+<!--l. 590--><p class="noindent" >&#8220;My self-defence classes. There are none in
+Lawndale, and the Friday evening class at      Oakwood seemed best to me to start with.&#8221;
+ <!--l. 593--><p class="noindent" >&#8220;Your class, I remember, you said something
+ along those lines. When is it on Friday?&#8221;
+ <!--l. 595--><p class="noindent" >&#8220;Starts at 7.&#8221;
+ <!--l. 597--><p class="noindent" >&#8220;I think I can, but I have to check. Can I tell you
+ tomorrow?&#8221;
+ <!--l. 599--><p class="noindent" >&#8220;Sure, dad.&#8221;
+ <!--l. 601--><p class="noindent" >With a &#8216;Gotta make some calls!&#8217; and a wicked
+ gleam in his eyes her father left, mumbling to
+ himself. He was definitely up to something.
+ <!--l. 604--><p class="noindent" >Daria wished she was already allowed to drive on
+ her own. That would solve that problem, she&#8217;d
+ just have to bum a car.
+ <!--l. 607--><p class="noindent" >&#171;<span 
+class="ecti-1095">On the other hand, I&#8217;d likely end up as Quinn&#8217;s</span>
+ <span 
+class="ecti-1095">chauffeur.</span>&#187;
+ <!--l. 609--><p class="noindent" >
+ <h4 class="subsectionHead"><a 
+ id="x1-38000"></a>*****</h4>
+ <!--l. 611--><p class="noindent" >Daria was in the bathroom brushing her teeth as
+ Quinn entered as well. Daria finished up, and
+ made room for her sister.
+ <!--l. 614--><p class="noindent" >&#8220;Quinn, before you start, can you give me a hand,
+ please?&#8221;
+ <!--l. 616--><p class="noindent" >Daria held some ointment jar out for Quinn to
+ take.
+ <!--l. 618--><p class="noindent" >&#8220;Your back?&#8221;
+ <!--l. 621--><p class="noindent" >&#8220;Yes, it&#8217;s alright, but I want it completely healed
+ before I start my training again.&#8221;
+ <!--l. 623--><p class="noindent" >Daria removed the old baggy t-shirt that she
+ wore.
+ <!--l. 626--><p class="noindent" >&#8220;Ouch. Nice coloring. Mostly green-yellowish with
+ a tad of teal. I was already wondering why you
+ were wearing that thing.&#8221;
+ <!--l. 628--><p class="noindent" >Quinn started to rub the salve onto her sister&#8217;s
+ shoulder, admiring her muscles.
+ <br class="newline" />&#171;<span 
+class="ecti-1095">That bruise will take some more days to vanish.</span>&#187;
+ <!--l. 632--><p class="noindent" >&#8220;I wouldn&#8217;t want to ruin anything else.&#8221; Daria
+ elaborated.
+ <!--l. 634--><p class="noindent" >The ointment created a pleasant coolness on
+ Daria&#8217;s back. Quinn was careful, and did not rub
+ hard enough to cause any aches.
+ <!--l. 637--><p class="noindent" >Quinn saw an opportunity and seized it.
+                                                                                      
+
+                                                                                      
+<br class="newline" />&#8220;If I have to keep this up this week, I demand
+compensation.&#8221;
+<!--l. 640--><p class="noindent" >Daria groaned inwardly. &#171;<span 
+class="ecti-1095">There goes the money I</span>
+<span 
+class="ecti-1095">made from dad...</span>&#187;
+<br class="newline" />&#8220;10?&#8221;
+<!--l. 643--><p class="noindent" >&#8220;No.&#8221;
+<!--l. 645--><p class="noindent" >&#171;<span 
+class="ecti-1095">You greedy not-so-little...</span>&#187;
+<br class="newline" />&#8220;15?&#8221;
+<!--l. 649--><p class="noindent" >&#8220;No. I wasn&#8217;t thinking of money. During the move
+I saw you have a book on massage...&#8221;
+<!--l. 651--><p class="noindent" >&#171;<span 
+class="ecti-1095">Ah, crap...</span>&#187;
+<br class="newline" />&#8220;Quinn, all I did was read a book on the subject.&#8221;
+<!--l. 655--><p class="noindent" >&#8220;Don&#8217;t tell me you don&#8217;t want to try it out. If
+you want me to nurse your back this week,
+you owe me a nice back massage the coming
+weekend.&#8221;
+<br class="newline" />&#171;<span 
+class="ecti-1095">I know how fast you learn, and you&#8217;re strong</span>
+<span 
+class="ecti-1095">enough to give a good massage. And I have a</span>
+<span 
+class="ecti-1095">good idea why you would be interested in that</span>
+<span 
+class="ecti-1095">topic.</span>&#187;
+<!--l. 659--><p class="noindent" >&#8220;Quinn, I have no experience and could hurt
+you.&#8221;
+<!--l. 662--><p class="noindent" >&#8220;Ah, and you would rather unexperiencedly
+hurt your boyfriend...he would not be <span 
+class="ecbx-1095">up </span>for
+anyth...&#8221;
+<!--l. 664--><p class="noindent" >&#8220;Quinn!&#8221;
+<br class="newline" />&#171;<span 
+class="ecti-1095">...get your mind out of the gutter. There are</span>
+<span 
+class="ecti-1095">some things that we should have never talked</span>
+<span 
+class="ecti-1095">about.</span>&#187;
+<!--l. 668--><p class="noindent" >Quinn just smirked at her sister, who looked at
+her via the mirror, but was not inclined to
+blush.
+<!--l. 671--><p class="noindent" >&#171;<span 
+class="ecti-1095">Sometimes you are just a really spoiled brat.</span>&#187;
+<br class="newline" />&#8220;Quinn, go to a spa.&#8221;
+<!--l. 674--><p class="noindent" >Quinn stopped her treatment and put the salve
+down.
+<!--l. 677--><p class="noindent" >&#8220;Daria, go see a doctor. Or ask mom to help you,
+she is going to be <span 
+class="ecbx-1095">so </span>delighted seeing that
+bruise.&#8221;
+<!--l. 679--><p class="noindent" >Daria reached for the bruise. She was barely able
+to touch the spot, but in no way to efficiently
+apply the ointment. Quinn smiled at Daria&#8217;s futile
+contortions. She was in for a nice and relaxing
+back massage.                               <!--l. 683--><p class="noindent" >&#8220;Damn. You win. But I can&#8217;t make any promises.&#8221;
+ <br class="newline" />&#171;<span 
+class="ecti-1095">I&#8217;ll have to make sure that it sucks big time!</span>&#187;
+ <!--l. 686--><p class="noindent" >Quinn went back to work.
+ <br class="newline" />&#8220;I know you&#8217;ll try your best. That stuff smells
+ really rank.&#8221;
+ <!--l. 689--><p class="noindent" >&#8220;Can the small talk, extortionist.&#8221;
+ <!--l. 691--><p class="noindent" >&#8220;It&#8217;s called &#8216;free enterprize&#8217;. There. All done.&#8221;
+ <!--l. 693--><p class="noindent" >Quinn capped the jar and handed it back to Daria
+ after she had put her shirt back on.
+ <!--l. 696--><p class="noindent" >&#8220;I would have said &#8216;thank you&#8217;, but now ... &#8217;night
+ Quinn.&#8221;
+ <!--l. 698--><p class="noindent" >&#8220;&#8217;night Daria.&#8221;
+ <!--l. 700--><p class="noindent" >Quinn smirked. Getting the upper hand on her
+ sister wasn&#8217;t something she could accomplish
+ often.
+ <!--l. 703--><p class="noindent" >Daria went back to her room and contemplated a
+ way to get back at her sister. They would be
+ together in the gym on Thursday.
+ <br class="newline" />&#171;<span 
+class="ecti-1095">I think I can make sure that you are really going</span>
+ <span 
+class="ecti-1095">to need that massage...</span>&#187;   
+</body></html> 
+
+                                                                                      
+
+

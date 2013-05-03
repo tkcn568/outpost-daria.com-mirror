@@ -1,0 +1,101 @@
+<html>
+
+<head>
+  <title>Outpost Daria - Fan Fiction: Converting Word Documents to Text or HTML</title>
+</head>
+
+<body background="images/bg.jpg">
+
+<p align="center">
+  <br>
+  <map name="Title Bar">
+    <area shape=rect coords="17,127,49,137" href="news.html">
+    <area shape=rect coords="62,127,138,138" href="characters.html">
+    <area shape=rect coords="150,127,206,138" href="episode_guide.html">
+    <area shape=rect coords="218,127,286,138" href="fan_fiction.html">
+    <area shape=rect coords="297,127,374,138" href="art_gallery.html">
+    <area shape=rect coords="386,127,481,138" href="message_board.html">
+    <area shape=rect coords="29,141,74,152" href="essays.html">
+    <area shape=rect coords="86,141,159,152" href="media.html">
+    <area shape=rect coords="170,141,285,152" href="computer.html">
+    <area shape=rect coords="297,141,328,152" href="faq.html">
+    <area shape=rect coords="340,141,374,152" href="links.html">
+    <area shape=rect coords="386,141,423,152" href="mailto:webmaster@lawndale.net">
+    <area shape=rect coords="435,141,467,152" href="index.html">
+  </map>
+  <img src="images/title_bar.gif" usemap="#Title Bar" width=500 height=160 border=0><br>
+  <br>
+  <font size=7 face="Arial"><b>Fan Fiction</b></font><br>
+  <font size=6 face="Arial"><b>Preparing Simple HTML Files</b></font><br>
+  <font size=3 face="Arial"><b><i>by Richard Lobinske</i></b></font><br>
+</p>
+
+<br>
+<hr>
+<br>
+
+<center>
+
+<table width=800 border=2 cellpadding=10 cellspacing=5 bgcolor="#f2c4f2">
+  <tr>
+    <td>
+      <p align="justify">
+      <font size=2 face="Arial">
+      This article was designed to help fan fiction writers quickly and easily prepare simple, compact HTML files for submission to websites. It will provide the basics for the standard alternative fonts of italic, bold and underline, how to set centered text, and how to insert a horizontal rule to delineate sections. For simplicity, I will not go further in this article. After you become comfortable with these basics, you can start experimenting with additional code to enhance your story presentation and to learn better coding practices.<br>
+      <br>
+      Most writers will use some kind of word processor for writing. After you have completed revising and proofreading of the story; save a duplicate copy of the file. This will give you a visual reference to help in placing the basic HTML tags that you will need.<br>
+      <br>
+      HTML tags are the codes that format what is seen in the web browser. They mostly are used in pairs: the open tag <b>&lt;&nbsp;&gt;</b>, which starts the formatting or action, and the close tag <b>&lt;/&nbsp;&gt;</b>, that ends it. HTML open and close tags should not cross, they should nestle within. For example, if you want the last word of a section of italic text in bold, you would use <b>&lt;i&gt;<i>text</i>&lt;b&gt;<i>text2</i>&lt;/b&gt;&lt;/i&gt;</b> and not <b>&lt;i&gt;<i>text</i>&lt;b&gt;<i>text2</i>&lt;/i&gt;&lt;/b&gt;</b>.<br>
+      <br>
+      You can display standard alternative text with the italic tags (<b>&lt;i&gt;</b> and <b>&lt;/i&gt;</b>), bold (<b>&lt;b&gt;</b> and <b>&lt;/b&gt;</b>) and underline (<b>&lt;u&gt;</b> and <b>&lt;/u&gt;</b>). Simply set the open tag at the beginning of the desired text and the close tag at the end. If you have written a story first for posting at a message board that uses a BBcode, you can again use find and replace on the brackets to change the <b>[&nbsp;]</b> to <b>&lt;&nbsp;&gt;</b>.<br>
+      <br>
+      To create centered text, use the open tag <b>&lt;center&gt;</b> and the close tag <b>&lt;/center&gt;</b>.<br>
+      <br>
+      To make life a lot easier, you can use the macro or hotkey function in your word processor to add the tags. By using adjacent keys for matching open and close tags, you can streamline the process considerably.<br>
+      <br>
+      Next is marking your paragraphs and line breaks. Without them, the browser will attempt to display the file as one very long line. The paragraph tag pair, <b>&lt;p&gt;</b> and <b>&lt;/p&gt;</b> identifies them to browsers as a unit and it will be displayed with a single line break afterward. A fast way to set the paragraph tags is to use one of the online &quot;Markdown&quot; converters:<br>
+      <blockquote>
+      <a href="http://michelf.com/projects/php-markdown/dingus/" target="_blank">http://michelf.com/projects/php-markdown/dingus/</a><br>
+      <a href="http://daringfireball.net/projects/markdown/dingus" target="_blank">http://daringfireball.net/projects/markdown/dingus</a><br>
+      <a href="http://attacklab.net/showdown/" target="_blank">http://attacklab.net/showdown/</a><br>
+      </blockquote>
+      For some instances, however, you will need to insert a directed line break, or <b>&lt;br&gt;</b> tag. This is needed for things like poetry, where you want line breaks at exact positions. The converters will treat them as ordinary paragraphs and group the lines together unless told otherwise. A second case is when you wish to have more than one line between sections of text, such as a separation between scenes or sections. I suggest adding the <b>&lt;br&gt;</b> tags before using the converter and make sure in the case of section breaks with multiple <b>&lt;br&gt;</b> tags you insert a blank line between the end of a paragraph and the breaks or the converter will roll them into the paragraph and nullify them. Fanfiction.net is a popular fanfiction website and its internal format only allows a horizontal rule tag, <b>&lt;hr&gt;</b> to separate text sections. You can again use find and replace to insert this tag into your section separations. When ready, copy and paste the text of your file into the converter and let it convert the text. Be aware that the converters are very good, but not perfect. You will need to inspect the final product to find possible small errors.<br>
+      <br>
+      Make a new document in a text editor, like Notepad. You want this treated only as text, no formatting. Type or copy the following into it:<br>
+      <blockquote><b>
+      &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;<br>
+      <br>
+      &lt;HTML&gt;<br>
+      &lt;head&gt;<br>
+      &lt;title&gt;Untitled&lt; /title &gt;<br>
+      &lt;/head&gt;<br>
+      <br>
+      &lt;body&gt;<br>
+      <br>
+      <br>
+      <br>
+      &lt;/body&gt;<br>
+      &lt;/HTML&gt;<br>
+      </b></blockquote>
+      Copy the text from the Markup converter and paste it into the above file under the <b>&lt;body&gt;</b> tag.<br>
+      <br>
+      If you want, type the title or something like that between the title tags near the top of the page. This will be displayed above the navigation bar as the page title.<br>
+      <br>
+      Save the file with a .HTML extension. If your text editor doesn't have the option to save with that extension, save as a .txt file and then use your file manager to manually change the extension to .HTML. Open the in a browser to see if it looks okay. If possible, it is best to check that it displays properly with multiple browsers. If it does, you're ready to go.<br>
+      <br>
+      This will get you started. Once you get comfortable, you can start experimenting with changing font types, sizes, adjusting paragraph margins, and other things. There are many good reference sites available with a simple search.<br>
+      <br>
+      <br>
+      <i>Thanks to 31415 at PPMB for the Markup converter and advice on how to easily add the paragraph tag.</i><br>
+      </font>
+    </td>
+  </tr>
+</table>
+
+</center>
+
+<br>
+<hr>
+
+</body>
+</html>

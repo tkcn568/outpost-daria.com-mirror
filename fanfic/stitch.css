@@ -1,0 +1,119 @@
+body {
+	background-color : #FFFFFF;
+	color: #000000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font size: 12pt;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family : "Times New Roman", Times, serif;
+	font-size: 28pt;
+}
+
+h2 {
+	font-family : "Times New Roman", Times, serif;
+	font-size : 20pt;
+	font-style : italic;
+}
+
+h3 {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 14pt;
+	font-variant : small-caps;
+	font-weight : bold;
+	margin-top : 28pt;
+	margin-bottom: -10pt;
+}
+
+.basedon {
+	font-family : "Times New Roman", Times, serif;
+	font-style : italic;
+	font-weight : bold;
+}
+
+.setting {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10pt;
+}
+
+.internaldialog {
+	font-style : italic;
+}
+
+.internaldialog em {
+	font-style : normal;
+}
+
+.illustrationleft {
+}
+
+.indentitalic {
+	margin-left : 2em;
+	margin-right : 2em;
+	font-style : italic;
+}
+
+#titleimage {
+	float: right;
+	text-align: center;
+	font-size: 9pt;
+	font-style : italic;
+	color: #003366;
+	margin: 0px 0px 10px 20px;
+}
+
+#authorportrait {
+	font-family : Arial, Helvetica, sans-serif;
+	position: relative;
+	width: 100px;
+	float: left;
+	color : #003300;
+	text-align: center;
+	font-size: 9pt;
+	font-style : italic;
+	margin: 0px 20px 10px 0px;
+}
+
+#prologue p {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-left : 2em;
+}
+
+#storybody p {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-left : 1em;
+}
+
+#epilogue p {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-left : 2em;
+}
+
+#authorscomments {
+	margin-top : 80px;
+	margin-left: 20px;
+	margin-right: 40px;
+}
+
+#authorscomments p {
+	font-size : 11pt;
+	font-family : "Times New Roman", Times, serif;
+	color : #003300;
+}
+
+#dianescomments {
+	margin-top : 40px;
+	margin-left: 30px;
+	margin-right: 60px;
+}
+
+#dianescomments p {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #003366;
+	font-size: 11pt;
+	text-align : justify;
+}
